@@ -8,11 +8,12 @@ pluginManagement {
         gradlePluginPortal()
         google()
         maven("https://s01.oss.sonatype.org/content/repositories/releases/")
+        maven("https://central.sonatype.com/repository/maven-snapshots/")
         maven("https://maven.pkg.jetbrains.space/public/p/compose/dev")
     }
     plugins {
         // See https://jmfayard.github.io/refreshVersions
-        id("de.fayard.refreshVersions") version "0.60.5"
+        id("de.fayard.refreshVersions") version "0.60.6"
     }
 }
 

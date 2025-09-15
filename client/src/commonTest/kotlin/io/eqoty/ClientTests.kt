@@ -8,7 +8,6 @@ import io.eqoty.secretk.types.*
 import io.eqoty.secretk.utils.logger
 import io.eqoty.secretk.wallet.DirectSigningWallet
 import kotlinx.coroutines.test.runTest
-import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.jsonObject
 import kotlinx.serialization.json.jsonPrimitive
@@ -170,12 +169,10 @@ class ClientTests {
             txOptions = TxOptions(gasLimit = gasLimit)
         )
 
-        val codeId = response.logs[0].events
-            .find { it.type == "message" }
-            ?.attributes
-            ?.find { it.key == "code_id" }?.value!!
+        val codeId = response.events
+            .find { it.type == "message" && it.attributes.any { it.key == "code_id" } }!!.attributes.get(0).value.toInt()
         logger.i("codeId:  $codeId")
-        return codeId.toInt()
+        return codeId
     }
 
     @Test
@@ -191,7 +188,7 @@ class ClientTests {
         val codeInfo = client.getCodeInfoByCodeId(codeId)
         logger.i("code hash: ${codeInfo.codeHash}")
 
-        assertEquals("203e69ab1cd265aa8d1f61cf8510c53fa8210cfd4bab7891616bae9e94547b26", codeInfo.codeHash)
+        assertEquals("f7ec57cbe6fe9ebbedcef6a3be6c57ac8e6bf81f8a27f87bc1356e30a73af4ac", codeInfo.codeHash)
     }
 
 
@@ -205,7 +202,7 @@ class ClientTests {
         testInstantiateContract(
             client,
             accAddress,
-            "5b64d22c7774b11cbc3aac55168d11f624a51921679b005df7d59487d254c892",
+            "f7ec57cbe6fe9ebbedcef6a3be6c57ac8e6bf81f8a27f87bc1356e30a73af4ac",
             accAddress
         )
     }
@@ -366,10 +363,9 @@ class ClientTests {
             msgs,
             txOptions = TxOptions(gasLimit = gasLimit)
         )
-        val contractAddress = instantiateResponse.logs[0].events
-            .find { it.type == "message" }
-            ?.attributes
-            ?.find { it.key == "contract_address" }?.value!!
+        val contractAddress = instantiateResponse.events
+            .find { e -> e.type == "message" && e.attributes.any { it.key == "contract_address" } }!!
+            .attributes.find { it.key == "contract_address" }!!.value
         logger.i("contract address:  $contractAddress")
         assertContains(contractAddress, "secret1")
         return contractAddress

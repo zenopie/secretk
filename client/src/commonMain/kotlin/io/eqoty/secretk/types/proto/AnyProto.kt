@@ -16,6 +16,34 @@ class AnyProto(
     fun toMsg(): MsgProto {
         return when (typeUrl) {
 
+            "/secret.compute.v1beta1.MsgExecuteContractResponse" -> {
+                ProtoBuf.decodeFromByteArray(value) as MsgExecuteContractResponseProto
+            }
+
+            "/cosmos.bank.v1beta1.MsgSendResponse" -> {
+                ProtoBuf.decodeFromByteArray(value) as MsgSendResponseProto
+            }
+
+            "/secret.compute.v1beta1.MsgInstantiateContractResponse" -> {
+                ProtoBuf.decodeFromByteArray(value) as MsgInstantiateContractResponseProto
+            }
+
+            "/secret.compute.v1beta1.MsgMigrateContractResponse" -> {
+                ProtoBuf.decodeFromByteArray(value) as MsgMigrateContractResponseProto
+            }
+
+            "/secret.compute.v1beta1.MsgStoreCodeResponse" -> {
+                ProtoBuf.decodeFromByteArray(value) as MsgStoreCodeResponseProto
+            }
+
+            "/secret.compute.v1beta1.MsgClearAdminResponse" -> {
+                ProtoBuf.decodeFromByteArray(value) as MsgClearAdminResponseProto
+            }
+
+            "/secret.compute.v1beta1.MsgUpdateAdminResponse" -> {
+                ProtoBuf.decodeFromByteArray(value) as MsgUpdateAdminResponseProto
+            }
+
             "/secret.compute.v1beta1.MsgExecuteContract" -> {
                 ProtoBuf.decodeFromByteArray(value) as MsgExecuteContractProto
             }
@@ -30,6 +58,10 @@ class AnyProto(
 
             "/secret.compute.v1beta1.MsgMigrateContract" -> {
                 ProtoBuf.decodeFromByteArray(value) as MsgMigrateContractProto
+            }
+
+            "/secret.compute.v1beta1.Msg" -> {
+                ProtoBuf.decodeFromByteArray(value) as MsgExecuteContractResponseProto
             }
 
             "/secret.compute.v1beta1.MsgStoreCode" -> {

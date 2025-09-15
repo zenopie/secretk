@@ -141,7 +141,8 @@ class SigningCosmWasmClient(
         val txRawProto = prepareAndSign(sender, msgs, txOptions)
         val txRawBytes = ProtoBuf.encodeToByteArray(txRawProto).toUByteArray()
         val postTxResponse = try {
-            postTx(txRawBytes)
+            val res = postTx(txRawBytes)
+            getTx(res.txhash)
         } catch (t: Throwable) {
             val nonces = msgs.map { msg ->
                 if (msg is EncryptedMsg) msg.populateCodeHash()
@@ -187,19 +188,16 @@ class SigningCosmWasmClient(
                 )
             ), granter = txOptions.feeGranter
         )
-
-        return when (wallet) {
+        return when (wallet ?: throw Error("Wallet is not set")) {
             is DirectSigningWallet -> {
                 signDirect(
                     wallet as DirectSigningWallet, accountFromWallet, messages, fee, txOptions.memo, signerData
                 )
             }
 
-            is Wallet -> {
+            else -> {
                 signAmino(wallet!!, accountFromWallet, messages, fee, txOptions.memo, signerData)
             }
-
-            else -> throw Error("Wallet not set")
         }
     }
 
@@ -409,9 +407,9 @@ class SigningCosmWasmClient(
             nonces[i] = extractMessageNonceIfNeeded(anyProto)
         }
         val txMsgData: TxMsgDataProto = ProtoBuf.decodeFromByteArray(postTxResult.rawData.decodeHex().toByteArray())
-        val dataFields = txMsgData.data
-        val data = dataFields.mapIndexed { i, msgDataProto ->
-            val msgTyped: MsgProto = msgDataProto.toMsgResponseType()
+        val dataFields = txMsgData.msg_responses
+        val data = dataFields.mapIndexed { i, msg ->
+            val msgTyped: MsgProto = msg.toMsg()
             restClient.decryptDataField(msgTyped, nonces[i])
         }
 

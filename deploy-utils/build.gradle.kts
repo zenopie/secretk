@@ -9,20 +9,14 @@ plugins {
 group = project.property("GROUP") as String
 version = project.property("VERSION_NAME") as String
 
-object Targets {
-    val iosTargets = arrayOf<String>()
-    val macosTargets = arrayOf("macosX64", "macosArm64")
-    val darwinTargets = iosTargets + macosTargets
-    val linuxTargets = arrayOf<String>()
-    val mingwTargets = arrayOf<String>()
-    val nativeTargets = linuxTargets + darwinTargets + mingwTargets
-}
-
 kotlin {
     jvm()
-    for (target in Targets.nativeTargets) {
-        targets.add(presets.getByName(target).createTarget(target))
-    }
+    iosArm64()
+    iosSimulatorArm64()
+    iosX64()
+    macosX64()
+    macosArm64()
+    applyDefaultHierarchyTemplate()
     sourceSets {
         all {
             languageSettings.optIn("kotlinx.coroutines.ExperimentalCoroutinesApi")
@@ -39,27 +33,6 @@ kotlin {
                 implementation(libs.bignum)
                 implementation(libs.bignum.serialization.kotlinx)
                 implementation(libs.io.github.luca992.getenv)
-            }
-        }
-        val commonTest by getting
-        val jvmMain by getting {
-            dependsOn(commonMain)
-        }
-        val jvmTest by getting {
-            dependsOn(commonTest)
-        }
-        val nativeMain by creating {
-            dependsOn(commonMain)
-        }
-        val nativeTest by creating {
-            dependsOn(commonTest)
-        }
-        Targets.nativeTargets.forEach { target ->
-            getByName("${target}Main") {
-                dependsOn(nativeMain)
-            }
-            getByName("${target}Test") {
-                dependsOn(nativeTest)
             }
         }
     }

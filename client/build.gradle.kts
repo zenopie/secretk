@@ -22,7 +22,7 @@ kotlin {
             })
         }
     }
-    iosArm64(); iosX64();iosSimulatorArm64()
+    iosArm64(); iosX64(); iosSimulatorArm64()
     tvosArm64(); tvosX64(); tvosSimulatorArm64()
     watchosArm32(); watchosArm64(); watchosSimulatorArm64()
     macosX64(); macosArm64()
@@ -30,8 +30,8 @@ kotlin {
     mingwX64()
 
     targets.filterIsInstance<KotlinNativeTarget>().filter { it.konanTarget.family.isAppleFamily }.forEach {
-            it.binaries.framework()
-        }
+        it.binaries.framework()
+    }
 
     applyDefaultHierarchyTemplate()
     sourceSets {
@@ -39,6 +39,7 @@ kotlin {
             languageSettings.optIn("kotlin.ExperimentalUnsignedTypes")
             languageSettings.optIn("kotlinx.coroutines.ExperimentalCoroutinesApi")
             languageSettings.optIn("kotlinx.serialization.ExperimentalSerializationApi")
+            languageSettings.optIn("kotlin.time.ExperimentalTime")
         }
         val commonMain by getting {
             dependencies {
@@ -94,7 +95,6 @@ kotlin {
             }
         }
         val jsTest by getting {
-            dependsOn(commonTest)
             dependencies {
                 implementation(libs.com.squareup.okio.nodefilesystem)
                 implementation(devNpm("@peculiar/webcrypto", "^1.4.0"))

@@ -61,7 +61,7 @@ kotlin {
             }
         }
     }
-
+    applyDefaultHierarchyTemplate()
     sourceSets {
         val commonMain by getting {
             dependencies {
@@ -84,7 +84,6 @@ kotlin {
         }
 
         val androidMain by getting {
-            dependsOn(commonMain)
             kotlin.srcDirs("src/jvmMain/kotlin")
             dependencies {
                 implementation(libs.androidx.appcompat)
@@ -98,8 +97,7 @@ kotlin {
             }
         }
 
-        val jsMain by getting {
-            dependsOn(commonMain)
+        jsMain {
             dependencies {
                 implementation(npm("@metamask/detect-provider", "^1.2.0"))
                 implementation(npm("web3", "^1.7.0"))
@@ -119,28 +117,6 @@ kotlin {
 
             }
         }
-
-        val nativeMain by creating {
-            dependsOn(commonMain)
-        }
-        val macosMain by creating {
-            dependsOn(nativeMain)
-        }
-        val macosX64Main by getting {
-            dependsOn(macosMain)
-        }
-        val macosArm64Main by getting {
-            dependsOn(macosMain)
-        }
-        val uikitMain by creating {
-            dependsOn(nativeMain)
-        }
-        val uikitX64Main by getting {
-            dependsOn(uikitMain)
-        }
-        val uikitArm64Main by getting {
-            dependsOn(uikitMain)
-        }
     }
 }
 
@@ -151,28 +127,6 @@ compose.desktop {
     }
 }
 
-compose.experimental {
-    web.application {}
-//    uikit.application {
-//        bundleIdPrefix = "io.eqoty.secretk"
-//        projectName = "secretk sample"
-//        deployConfigurations {
-//            simulator("IPhone8") {
-//                //Usage: ./gradlew iosDeployIPhone8Debug
-//                device = IOSDevices.IPHONE_8
-//            }
-//            simulator("IPad") {
-//                //Usage: ./gradlew iosDeployIPadDebug
-//                device = IOSDevices.IPAD_MINI_6th_Gen
-//            }
-//            connectedDevice("Device") {
-//                //First need specify your teamId here, or in local.properties (compose.ios.teamId=***)
-//                //teamId="***"
-//                //Usage: ./gradlew iosDeployDeviceRelease
-//            }
-//        }
-//    }
-}
 
 compose.desktop.nativeApplication {
     targets(kotlin.targets.getByName("macosArm64"))
@@ -183,18 +137,13 @@ compose.desktop.nativeApplication {
     }
 }
 
-//compose {
-//    // workaround to use kotlin 1.8.22
-//    // https://github.com/JetBrains/compose-jb/blob/master/VERSIONING.md#using-jetpack-compose-compiler
-//    kotlinCompilerPlugin.set("androidx.compose.compiler:compiler:1.4.8")
-//}
 
 android {
-    compileSdk = 34
+    compileSdk = 36
 
     defaultConfig {
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 36
     }
 
     sourceSets {

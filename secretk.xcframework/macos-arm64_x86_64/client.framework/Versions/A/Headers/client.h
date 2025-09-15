@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class ClientKotlinEnumCompanion, ClientKotlinEnum<E>, ClientBroadcastMode, ClientKotlinArray<T>, ClientAccount, ClientBalanceResponse, ClientCosmwasm_std_typesCodeInfo, ClientContractInfoResponse, ClientBlockResponse, ClientGetNonceResult, ClientNodeInfoResponse, ClientSimulateTxsResponse, ClientTxResponseData, ClientCosmWasmClient, ClientSigningCosmWasmClientCompanion, ClientTxOptions, ClientGasInfo, ClientSigningCosmWasmClient, ClientPermitFactory, ClientSecret_std_typesPermission, ClientSecret_std_typesPermit, ClientMsgProto, ClientProtoMsg<M>, ClientMsgAminoCompanion, ClientMsgClearAdminProto, ClientMsgClearAdminAminoData, ClientMsgClearAdminAminoCompanion, ClientMsgClearAdminAminoDataCompanion, ClientCosmwasm_std_typesCoin, ClientMsgExecuteContractProto, ClientMsgExecuteContractAminoData, ClientMsgExecuteContractAminoCompanion, ClientMsgExecuteContractAminoDataCompanion, ClientMsgInstantiateContractProto, ClientMsgMigrateContractProto, ClientMsgMigrateContractAminoData, ClientMsgMigrateContractAminoCompanion, ClientMsgMigrateContractAminoDataCompanion, ClientMsgQueryPermitAminoData, ClientMsgQueryPermitAminoCompanion, ClientMsgQueryPermitAminoDataCompanion, ClientMsgSendProto, ClientMsgSendAminoData, ClientMsgSendAminoCompanion, ClientMsgSendAminoDataCompanion, ClientMsgStoreCodeProto, ClientMsgStoreCodeAminoData, ClientMsgStoreCodeAminoCompanion, ClientMsgStoreCodeAminoDataCompanion, ClientMsgUpdateAdminProto, ClientMsgUpdateAdminAminoData, ClientMsgUpdateAdminAminoCompanion, ClientMsgUpdateAdminAminoDataCompanion, ClientAnyProto, ClientBignumBigInteger, ClientSigner, ClientSignerData, ClientStdFeeCompanion, ClientStdFee, ClientStdSignDocCompanion, ClientStdSignDoc, ClientSecret_std_typesTypeValue<V>, ClientSecret_std_typesStdSignature, ClientStdTxCompanion, ClientStdTx<T>, ClientTxBodyValue<M>, ClientTxBodyCompanion, ClientTxBody<M>, ClientTxBodyValueCompanion, ClientKotlinByteArray, ClientAnyProtoCompanion, ClientSignerInfoProto, ClientFeeProto, ClientAuthInfoProtoCompanion, ClientCoinProtoCompanion, ClientCoinProto, ClientFeeProtoCompanion, ClientKeyProtoCompanion, ClientModeInfoProtoSingle, ClientModeInfoProtoMulti, ClientModeInfoProtoCompanion, ClientModeInfoProtoMultiCompanion, ClientModeInfoProtoSingleCompanion, ClientMsgClearAdminProtoCompanion, ClientMsgClearAdminResponseProtoCompanion, ClientMsgDataProtoCompanion, ClientMsgExecuteContractProtoCompanion, ClientMsgExecuteContractResponseProtoCompanion, ClientMsgInstantiateContractProtoCompanion, ClientMsgInstantiateContractResponseProtoCompanion, ClientMsgMigrateContractProtoCompanion, ClientMsgMigrateContractResponseProtoCompanion, ClientMsgSendProtoCompanion, ClientMsgSendResponseProtoCompanion, ClientMsgStoreCodeProtoCompanion, ClientMsgStoreCodeResponseProtoCompanion, ClientMsgUpdateAdminProtoCompanion, ClientMsgUpdateAdminResponseProtoCompanion, ClientProtoMsgCompanion, ClientSignDocProtoCompanion, ClientSignModeCompanion, ClientSignMode, ClientModeInfoProto, ClientSignerInfoProtoCompanion, ClientTxBodyProtoCompanion, ClientMsgDataProto, ClientTxMsgDataProtoCompanion, ClientTxRawProtoCompanion, ClientV1BetaTypeCompanion, ClientV1BetaType, ClientSecp256k1PubKey, ClientAccountCompanion, ClientAccountResponseCompanion, ClientAccountResponse, ClientApplicationVersionCompanion, ClientApplicationVersion, ClientBalanceResponseCompanion, ClientHeader, ClientData, ClientLastCommit, ClientBlockCompanion, ClientBlock, ClientPartSetHeader, ClientBlockIdCompanion, ClientBlockId, ClientBlockResponseCompanion, ClientCodeInfoResponseCompanion, ClientCodeInfoResponse, ClientContractInfoResponseContractInfo, ClientContractInfoResponseCompanion, ClientContractInfoResponseCreationInfo, ClientContractInfoResponseContractInfoCompanion, ClientContractInfoResponseCreationInfoCompanion, ClientDataCompanion, ClientEncryptedRandomCompanion, ClientEncryptedRandom, ClientGasInfoCompanion, ClientVersion, ClientHeaderCompanion, ClientLabelResponseCompanion, ClientLabelResponse, ClientSignature, ClientLastCommitCompanion, ClientProtocolVersion, ClientNodeInfoOther, ClientNodeInfoCompanion, ClientNodeInfo, ClientNodeInfoOtherCompanion, ClientNodeInfoResponseCompanion, ClientPartSetHeaderCompanion, ClientProtocolVersionCompanion, ClientSecp256k1PubKeyCompanion, ClientSignatureCompanion, ClientSimulateTxsResponseData, ClientSimulateTxsResponseCompanion, ClientLog, ClientEvent, ClientSimulateTxsResponseDataCompanion, ClientSmartQueryResponseCompanion, ClientTxResponseCompanion, ClientTxResponseDataCompanion, ClientTxResponseErrorCompanion, ClientTxResponseError, ClientKotlinx_serialization_jsonJsonElement, ClientKotlinx_serialization_jsonJsonContentPolymorphicSerializer<T>, ClientTxResponseSerializer, ClientTxResponseValidCompanion, ClientTxResponseValid, ClientVersionCompanion, ClientWasmResponseCompanion, ClientWasmResponse<R>, ClientAttributeCompanion, ClientAttribute, ClientEventCompanion, ClientLogCompanion, ClientAddress, ClientSecret_std_typesPubKey, ClientEnigmaUtilsCompanion, ClientKeyPair, ClientResultCompanion, ClientResult, ClientTxKeyResponseCompanion, ClientTxKeyResponse, ClientAlgo, ClientAccountData, ClientKotlinCharArray, ClientAminoSignResponseCompanion, ClientAminoSignResponse, ClientAccountSigningData, ClientPrehashType, ClientBaseWallet, ClientSignResponse, ClientSignDocProto, ClientRipemd160DigestCompanion, ClientCosmwasm_std_typesCoinCompanion, ClientKotlinByteIterator, ClientKotlinIntIterator, ClientKotlinIntArray, ClientOkioByteStringCompanion, ClientOkioByteString, ClientKotlinx_serialization_jsonJson, ClientSecret_std_typesPubKeySecp256k1, ClientKotlinThrowable, ClientKotlinException, ClientKotlinRuntimeException, ClientKotlinIllegalStateException, ClientCosmwasm_std_typesCodeInfoCompanion, ClientSecret_std_typesPermissionCompanion, ClientSecret_std_typesPermitParams, ClientSecret_std_typesPermitCompanion, ClientKotlinPair<__covariant A, __covariant B>, ClientBignumBigIntegerCompanion, ClientBignumBigIntegerQuotientAndRemainder, ClientBignumSign, ClientBignumBigIntegerBigIntegerRange, ClientBignumBigIntegerSqareRootAndRemainder, ClientBignumModularBigInteger, ClientSecret_std_typesTypeValueCompanion, ClientSecret_std_typesStdSignatureCompanion, ClientKotlinx_serialization_coreSerializersModule, ClientKotlinx_serialization_coreSerialKind, ClientKotlinNothing, ClientKotlinx_serialization_jsonJsonElementCompanion, ClientSecret_std_typesPubKeyCompanion, ClientKotlinCharIterator, NSData, ClientKotlinx_serialization_jsonJsonDefault, ClientKotlinx_serialization_jsonJsonConfiguration, ClientSecret_std_typesPubKeySecp256k1Companion, ClientSecret_std_typesPermitParamsCompanion, ClientBignumModularBigIntegerCompanion, ClientBignumModularQuotientAndRemainder, ClientKotlinx_serialization_jsonClassDiscriminatorMode;
+@class ClientAccount, ClientAccountCompanion, ClientAccountData, ClientAccountResponse, ClientAccountResponseCompanion, ClientAccountSigningData, ClientAddress, ClientAlgo, ClientAminoSignResponse, ClientAminoSignResponseCompanion, ClientAnyProto, ClientAnyProtoCompanion, ClientApplicationVersion, ClientApplicationVersionCompanion, ClientAttribute, ClientAttributeCompanion, ClientAuthInfoProtoCompanion, ClientBalanceResponse, ClientBalanceResponseCompanion, ClientBaseWallet, ClientBignumBigInteger, ClientBignumBigIntegerBigIntegerRange, ClientBignumBigIntegerCompanion, ClientBignumBigIntegerQuotientAndRemainder, ClientBignumBigIntegerSqareRootAndRemainder, ClientBignumModularBigInteger, ClientBignumModularBigIntegerCompanion, ClientBignumModularQuotientAndRemainder, ClientBignumSign, ClientBlock, ClientBlockCompanion, ClientBlockId, ClientBlockIdCompanion, ClientBlockResponse, ClientBlockResponseCompanion, ClientBroadcastMode, ClientCodeHashResponse, ClientCodeHashResponseCompanion, ClientCodeInfoResponse, ClientCodeInfoResponseCompanion, ClientCoinProto, ClientCoinProtoCompanion, ClientContractInfoResponse, ClientContractInfoResponseCompanion, ClientContractInfoResponseContractInfo, ClientContractInfoResponseContractInfoCompanion, ClientContractInfoResponseCreationInfo, ClientContractInfoResponseCreationInfoCompanion, ClientCosmWasmClient, ClientCosmwasm_std_typesCodeInfo, ClientCosmwasm_std_typesCodeInfoCompanion, ClientCosmwasm_std_typesCoin, ClientCosmwasm_std_typesCoinCompanion, ClientData, ClientDataCompanion, ClientEncryptedRandom, ClientEncryptedRandomCompanion, ClientEnigmaUtilsCompanion, ClientEvent, ClientEventCompanion, ClientFeeProto, ClientFeeProtoCompanion, ClientGasInfo, ClientGasInfoCompanion, ClientGetNonceResult, ClientHeader, ClientHeaderCompanion, ClientKeyPair, ClientKeyProtoCompanion, ClientKotlinArray<T>, ClientKotlinByteArray, ClientKotlinByteIterator, ClientKotlinCharArray, ClientKotlinCharIterator, ClientKotlinEnum<E>, ClientKotlinEnumCompanion, ClientKotlinException, ClientKotlinIllegalStateException, ClientKotlinIntArray, ClientKotlinIntIterator, ClientKotlinNothing, ClientKotlinPair<__covariant A, __covariant B>, ClientKotlinRuntimeException, ClientKotlinThrowable, ClientKotlinx_serialization_coreSerialKind, ClientKotlinx_serialization_coreSerializersModule, ClientKotlinx_serialization_jsonClassDiscriminatorMode, ClientKotlinx_serialization_jsonJson, ClientKotlinx_serialization_jsonJsonConfiguration, ClientKotlinx_serialization_jsonJsonContentPolymorphicSerializer<T>, ClientKotlinx_serialization_jsonJsonDefault, ClientKotlinx_serialization_jsonJsonElement, ClientKotlinx_serialization_jsonJsonElementCompanion, ClientLabelResponse, ClientLabelResponseCompanion, ClientLastCommit, ClientLastCommitCompanion, ClientLog, ClientLogCompanion, ClientModeInfoProto, ClientModeInfoProtoCompanion, ClientModeInfoProtoMulti, ClientModeInfoProtoMultiCompanion, ClientModeInfoProtoSingle, ClientModeInfoProtoSingleCompanion, ClientMsgAminoCompanion, ClientMsgClearAdminAminoCompanion, ClientMsgClearAdminAminoData, ClientMsgClearAdminAminoDataCompanion, ClientMsgClearAdminProto, ClientMsgClearAdminProtoCompanion, ClientMsgClearAdminResponseProtoCompanion, ClientMsgDataProtoCompanion, ClientMsgExecuteContractAminoCompanion, ClientMsgExecuteContractAminoData, ClientMsgExecuteContractAminoDataCompanion, ClientMsgExecuteContractProto, ClientMsgExecuteContractProtoCompanion, ClientMsgExecuteContractResponseProtoCompanion, ClientMsgInstantiateContractProto, ClientMsgInstantiateContractProtoCompanion, ClientMsgInstantiateContractResponseProtoCompanion, ClientMsgMigrateContractAminoCompanion, ClientMsgMigrateContractAminoData, ClientMsgMigrateContractAminoDataCompanion, ClientMsgMigrateContractProto, ClientMsgMigrateContractProtoCompanion, ClientMsgMigrateContractResponseProtoCompanion, ClientMsgProto, ClientMsgQueryPermitAminoCompanion, ClientMsgQueryPermitAminoData, ClientMsgQueryPermitAminoDataCompanion, ClientMsgSendAminoCompanion, ClientMsgSendAminoData, ClientMsgSendAminoDataCompanion, ClientMsgSendProto, ClientMsgSendProtoCompanion, ClientMsgSendResponseProtoCompanion, ClientMsgStoreCodeAminoCompanion, ClientMsgStoreCodeAminoData, ClientMsgStoreCodeAminoDataCompanion, ClientMsgStoreCodeProto, ClientMsgStoreCodeProtoCompanion, ClientMsgStoreCodeResponseProtoCompanion, ClientMsgUpdateAdminAminoCompanion, ClientMsgUpdateAdminAminoData, ClientMsgUpdateAdminAminoDataCompanion, ClientMsgUpdateAdminProto, ClientMsgUpdateAdminProtoCompanion, ClientMsgUpdateAdminResponseProtoCompanion, ClientNodeInfo, ClientNodeInfoCompanion, ClientNodeInfoOther, ClientNodeInfoOtherCompanion, ClientNodeInfoResponse, ClientNodeInfoResponseCompanion, ClientOkioByteString, ClientOkioByteStringCompanion, ClientPartSetHeader, ClientPartSetHeaderCompanion, ClientPermitFactory, ClientPrehashType, ClientProtoMsg<M>, ClientProtoMsgCompanion, ClientProtocolVersion, ClientProtocolVersionCompanion, ClientResult, ClientResultCompanion, ClientRipemd160DigestCompanion, ClientSecp256k1PubKey, ClientSecp256k1PubKeyCompanion, ClientSecret_std_typesPermission, ClientSecret_std_typesPermissionCompanion, ClientSecret_std_typesPermit, ClientSecret_std_typesPermitCompanion, ClientSecret_std_typesPermitParams, ClientSecret_std_typesPermitParamsCompanion, ClientSecret_std_typesPubKey, ClientSecret_std_typesPubKeyCompanion, ClientSecret_std_typesPubKeySecp256k1, ClientSecret_std_typesPubKeySecp256k1Companion, ClientSecret_std_typesStdSignature, ClientSecret_std_typesStdSignatureCompanion, ClientSecret_std_typesTypeValue<V>, ClientSecret_std_typesTypeValueCompanion, ClientSignDocProto, ClientSignDocProtoCompanion, ClientSignMode, ClientSignModeCompanion, ClientSignResponse, ClientSignature, ClientSignatureCompanion, ClientSigner, ClientSignerData, ClientSignerInfoProto, ClientSignerInfoProtoCompanion, ClientSigningCosmWasmClient, ClientSigningCosmWasmClientCompanion, ClientSimulateTxsResponse, ClientSimulateTxsResponseCompanion, ClientSimulateTxsResponseData, ClientSimulateTxsResponseDataCompanion, ClientSmartQueryResponseCompanion, ClientStdFee, ClientStdFeeCompanion, ClientStdSignDoc, ClientStdSignDocCompanion, ClientStdTx<T>, ClientStdTxCompanion, ClientTxBody<M>, ClientTxBodyCompanion, ClientTxBodyProtoCompanion, ClientTxBodyValue<M>, ClientTxBodyValueCompanion, ClientTxKeyResponse, ClientTxKeyResponseCompanion, ClientTxMsgDataProtoCompanion, ClientTxOptions, ClientTxRawProtoCompanion, ClientTxResponseCompanion, ClientTxResponseData, ClientTxResponseDataCompanion, ClientTxResponseError, ClientTxResponseErrorCompanion, ClientTxResponseSerializer, ClientTxResponseValid, ClientTxResponseValidCompanion, ClientV1BetaType, ClientV1BetaTypeCompanion, ClientVersion, ClientVersionCompanion, ClientWasmResponse<R>, ClientWasmResponseCompanion, NSData;
 
-@protocol ClientKotlinComparable, ClientEncryptionUtils, ClientWallet, ClientMsg, ClientMsgAmino, ClientKotlinx_serialization_coreKSerializer, ClientUnencryptedMsg, ClientEncryptedMsg, ClientTxResponse, ClientKotlinx_serialization_coreEncoder, ClientKotlinx_serialization_coreSerialDescriptor, ClientKotlinx_serialization_coreSerializationStrategy, ClientKotlinx_serialization_coreDecoder, ClientKotlinx_serialization_coreDeserializationStrategy, ClientKotlinKClass, ClientKotlinIterator, ClientBignumBigNumber, ClientBignumBigNumberCreator, ClientBignumBitwiseCapable, ClientBignumByteArraySerializable, ClientKotlinx_serialization_coreCompositeEncoder, ClientKotlinAnnotation, ClientKotlinx_serialization_coreCompositeDecoder, ClientKotlinKDeclarationContainer, ClientKotlinKAnnotatedElement, ClientKotlinKClassifier, ClientKotlinx_serialization_coreSerialFormat, ClientKotlinx_serialization_coreStringFormat, ClientBignumBigNumberUtil, ClientBignumByteArrayDeserializable, ClientKotlinClosedRange, ClientKotlinIterable, ClientKotlinx_serialization_coreSerializersModuleCollector, ClientKotlinx_serialization_jsonJsonNamingStrategy;
+@protocol ClientBignumBigNumber, ClientBignumBigNumberCreator, ClientBignumBigNumberUtil, ClientBignumBitwiseCapable, ClientBignumByteArrayDeserializable, ClientBignumByteArraySerializable, ClientEncryptedMsg, ClientEncryptionUtils, ClientKotlinAnnotation, ClientKotlinClosedRange, ClientKotlinComparable, ClientKotlinIterable, ClientKotlinIterator, ClientKotlinKAnnotatedElement, ClientKotlinKClass, ClientKotlinKClassifier, ClientKotlinKDeclarationContainer, ClientKotlinx_serialization_coreCompositeDecoder, ClientKotlinx_serialization_coreCompositeEncoder, ClientKotlinx_serialization_coreDecoder, ClientKotlinx_serialization_coreDeserializationStrategy, ClientKotlinx_serialization_coreEncoder, ClientKotlinx_serialization_coreKSerializer, ClientKotlinx_serialization_coreSerialDescriptor, ClientKotlinx_serialization_coreSerialFormat, ClientKotlinx_serialization_coreSerializationStrategy, ClientKotlinx_serialization_coreSerializersModuleCollector, ClientKotlinx_serialization_coreStringFormat, ClientKotlinx_serialization_jsonJsonNamingStrategy, ClientMsg, ClientMsgAmino, ClientTxResponse, ClientUnencryptedMsg, ClientWallet;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -168,7 +168,6 @@ __attribute__((swift_name("BroadcastMode")))
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 - (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) ClientBroadcastMode *block __attribute__((swift_name("block")));
 @property (class, readonly) ClientBroadcastMode *sync __attribute__((swift_name("sync")));
 @property (class, readonly) ClientBroadcastMode *async __attribute__((swift_name("async")));
 + (ClientKotlinArray<ClientBroadcastMode *> *)values __attribute__((swift_name("values()")));
@@ -242,6 +241,12 @@ __attribute__((swift_name("CosmWasmClient")))
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
+- (void)getTxHash:(NSString *)hash timeoutAfter:(int64_t)timeoutAfter completionHandler:(void (^)(ClientTxResponseData * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getTx(hash:timeoutAfter:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
 - (void)nodeInfoWithCompletionHandler:(void (^)(ClientNodeInfoResponse * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("nodeInfo(completionHandler:)")));
 
 /**
@@ -257,18 +262,34 @@ __attribute__((swift_name("CosmWasmClient")))
 - (void)postTxTx:(id)tx completionHandler:(void (^)(ClientTxResponseData * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("postTx(tx:completionHandler:)")));
 
 /**
+ * Makes a smart query on the contract, returns the parsed JSON document.
+ *
+ * Promise is rejected when contract does not exist.
+ * Promise is rejected for invalid query format.
+ * Promise is rejected for invalid response format.
+ *
+ * Note: addedParams allows for query string additions such as "&height=1234567"
+ *
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)queryContractSmartContractAddress:(NSString *)contractAddress queryMsg:(NSString *)queryMsg contractCodeHash:(NSString * _Nullable)contractCodeHash completionHandler:(void (^)(NSString * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("queryContractSmart(contractAddress:queryMsg:contractCodeHash:completionHandler:)")));
 
-/**
+/** Any address the chain considers valid (valid bech32 with proper prefix)
+ *
  * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
 */
 @property NSString * _Nullable anyValidAddress __attribute__((swift_name("anyValidAddress")));
 @property NSString * _Nullable chainId __attribute__((swift_name("chainId")));
 @end
 
+
+/***
+ * A Secret Network Client that can sign transactions.
+ * Note: libsodium must be initialized before instantiating the client.
+ * use [SigningCosmWasmClient.init] to handle initializing libsodium automatically.
+ * Or call ensureSodiumInitialized() before creating [SigningCosmWasmClient]
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("SigningCosmWasmClient")))
 @interface ClientSigningCosmWasmClient : ClientCosmWasmClient
@@ -306,6 +327,8 @@ __attribute__((swift_name("SigningCosmWasmClient.Companion")))
 @property (class, readonly, getter=shared) ClientSigningCosmWasmClientCompanion *shared __attribute__((swift_name("shared")));
 
 /**
+ * Helper to initialize libsodium and then create the client.
+ *
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
@@ -406,6 +429,10 @@ __attribute__((swift_name("UnencryptedMsg")))
 - (void)toProtoWithCompletionHandler:(void (^)(ClientProtoMsg<ClientMsgProto *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("toProto(completionHandler:)")));
 @end
 
+
+/***
+ *  MsgSend represents a message to send coins from one account to another.
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MsgClearAdmin")))
 @interface ClientMsgClearAdmin : ClientBase <ClientUnencryptedMsg>
@@ -491,9 +518,15 @@ __attribute__((swift_name("MsgExecuteContract")))
 */
 - (void)toProtoUtils:(id<ClientEncryptionUtils>)utils completionHandler:(void (^)(ClientProtoMsg<ClientMsgExecuteContractProto *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("toProto(utils:completionHandler:)")));
 @property NSString * _Nullable codeHash __attribute__((swift_name("codeHash")));
+
+/** The contract's address */
 @property (readonly) NSString *contractAddress __attribute__((swift_name("contractAddress")));
+
+/** The input message */
 @property (readonly) NSString *msg __attribute__((swift_name("msg")));
 @property (readonly) NSString *sender __attribute__((swift_name("sender")));
+
+/** Funds to send to the contract */
 @property (readonly) NSArray<ClientCosmwasm_std_typesCoin *> *sentFunds __attribute__((swift_name("sentFunds")));
 @end
 
@@ -568,11 +601,21 @@ __attribute__((swift_name("MsgInstantiateContract")))
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)toProtoUtils:(id<ClientEncryptionUtils>)utils completionHandler:(void (^)(ClientProtoMsg<ClientMsgInstantiateContractProto *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("toProto(utils:completionHandler:)")));
+
+/** The address of the admin account for enabling contract migration, if any */
 @property (readonly) NSString * _Nullable admin __attribute__((swift_name("admin")));
 @property NSString * _Nullable codeHash __attribute__((swift_name("codeHash")));
+
+/** The id of the contract's WASM code */
 @property int32_t codeId __attribute__((swift_name("codeId")));
+
+/** Funds to send to the contract */
 @property (readonly, getter=doInitFunds) NSArray<ClientCosmwasm_std_typesCoin *> *initFunds __attribute__((swift_name("initFunds")));
+
+/** The input message to the contract's constructor */
 @property (readonly, getter=doInitMsg) NSString *initMsg __attribute__((swift_name("initMsg")));
+
+/** A unique label across all contracts */
 @property (readonly) NSString *label __attribute__((swift_name("label")));
 @property (readonly) NSString *sender __attribute__((swift_name("sender")));
 @end
@@ -718,6 +761,10 @@ __attribute__((swift_name("MsgQueryPermitAminoData.Companion")))
 - (id<ClientKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
+
+/***
+ *  MsgSend represents a message to send coins from one account to another.
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MsgSend")))
 @interface ClientMsgSend : ClientBase <ClientUnencryptedMsg>
@@ -734,6 +781,8 @@ __attribute__((swift_name("MsgSend")))
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)toProtoWithCompletionHandler:(void (^)(ClientProtoMsg<ClientMsgSendProto *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("toProto(completionHandler:)")));
+
+/** Funds to send to the address */
 @property (readonly) NSArray<ClientCosmwasm_std_typesCoin *> *amount __attribute__((swift_name("amount")));
 @property (readonly) NSString *fromAddress __attribute__((swift_name("fromAddress")));
 @property (readonly) NSString *sender __attribute__((swift_name("sender")));
@@ -815,9 +864,15 @@ __attribute__((swift_name("MsgStoreCode")))
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)toProtoWithCompletionHandler:(void (^)(ClientProtoMsg<ClientMsgStoreCodeProto *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("toProto(completionHandler:)")));
+
+/** Builder is a valid docker image name with tag, optional */
 @property (readonly) NSString * _Nullable builder __attribute__((swift_name("builder")));
 @property (readonly) NSString *sender __attribute__((swift_name("sender")));
+
+/** Source is a valid absolute HTTPS URI to the contract's source code, optional */
 @property (readonly) NSString * _Nullable source __attribute__((swift_name("source")));
+
+/** WASMByteCode can be raw or gzip compressed */
 @property (readonly) id wasmByteCode __attribute__((swift_name("wasmByteCode")));
 @end
 
@@ -963,13 +1018,37 @@ __attribute__((swift_name("Signer")))
 @property (readonly) ClientBignumBigInteger *sequence __attribute__((swift_name("sequence")));
 @end
 
+
+/**
+ * Signing information for a single signer that is not included in the transaction.
+ *
+ * @see https://github.com/cosmos/cosmos-sdk/blob/v0.42.2/x/auth/signing/sign_mode_handler.go#L23-L37
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("SignerData")))
 @interface ClientSignerData : ClientBase
 - (instancetype)initWithAccountNumber:(ClientBignumBigInteger *)accountNumber sequence:(ClientBignumBigInteger *)sequence chainId:(NSString *)chainId __attribute__((swift_name("init(accountNumber:sequence:chainId:)"))) __attribute__((objc_designated_initializer));
 - (ClientSignerData *)doCopyAccountNumber:(ClientBignumBigInteger *)accountNumber sequence:(ClientBignumBigInteger *)sequence chainId:(NSString *)chainId __attribute__((swift_name("doCopy(accountNumber:sequence:chainId:)")));
+
+/**
+ * Signing information for a single signer that is not included in the transaction.
+ *
+ * @see https://github.com/cosmos/cosmos-sdk/blob/v0.42.2/x/auth/signing/sign_mode_handler.go#L23-L37
+ */
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * Signing information for a single signer that is not included in the transaction.
+ *
+ * @see https://github.com/cosmos/cosmos-sdk/blob/v0.42.2/x/auth/signing/sign_mode_handler.go#L23-L37
+ */
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
+
+/**
+ * Signing information for a single signer that is not included in the transaction.
+ *
+ * @see https://github.com/cosmos/cosmos-sdk/blob/v0.42.2/x/auth/signing/sign_mode_handler.go#L23-L37
+ */
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) ClientBignumBigInteger *accountNumber __attribute__((swift_name("accountNumber")));
 @property (readonly) NSString *chainId __attribute__((swift_name("chainId")));
@@ -1049,7 +1128,8 @@ __attribute__((swift_name("StdSignDoc.Companion")))
 @end
 
 
-/**
+/** An Amino/Cosmos SDK StdTx
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable
 */
@@ -1059,8 +1139,14 @@ __attribute__((swift_name("StdTx")))
 - (instancetype)initWithMsg:(NSArray<ClientSecret_std_typesTypeValue<T> *> *)msg fee:(ClientStdFee *)fee signatures:(NSArray<ClientSecret_std_typesStdSignature *> *)signatures memo:(NSString * _Nullable)memo __attribute__((swift_name("init(msg:fee:signatures:memo:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) ClientStdTxCompanion *companion __attribute__((swift_name("companion")));
 - (ClientStdTx<T> *)doCopyMsg:(NSArray<ClientSecret_std_typesTypeValue<T> *> *)msg fee:(ClientStdFee *)fee signatures:(NSArray<ClientSecret_std_typesStdSignature *> *)signatures memo:(NSString * _Nullable)memo __attribute__((swift_name("doCopy(msg:fee:signatures:memo:)")));
+
+/** An Amino/Cosmos SDK StdTx */
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/** An Amino/Cosmos SDK StdTx */
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
+
+/** An Amino/Cosmos SDK StdTx */
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) ClientStdFee *fee __attribute__((swift_name("fee")));
 @property (readonly) NSString * _Nullable memo __attribute__((swift_name("memo")));
@@ -1068,14 +1154,22 @@ __attribute__((swift_name("StdTx")))
 @property (readonly) NSArray<ClientSecret_std_typesStdSignature *> *signatures __attribute__((swift_name("signatures")));
 @end
 
+
+/** An Amino/Cosmos SDK StdTx */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("StdTxCompanion")))
 @interface ClientStdTxCompanion : ClientBase
 + (instancetype)alloc __attribute__((unavailable));
+
+/** An Amino/Cosmos SDK StdTx */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) ClientStdTxCompanion *shared __attribute__((swift_name("shared")));
+
+/** An Amino/Cosmos SDK StdTx */
 - (id<ClientKotlinx_serialization_coreKSerializer>)serializerTypeParamsSerializers:(ClientKotlinArray<id<ClientKotlinx_serialization_coreKSerializer>> *)typeParamsSerializers __attribute__((swift_name("serializer(typeParamsSerializers:)")));
+
+/** An Amino/Cosmos SDK StdTx */
 - (id<ClientKotlinx_serialization_coreKSerializer>)serializerTypeSerial0:(id<ClientKotlinx_serialization_coreKSerializer>)typeSerial0 __attribute__((swift_name("serializer(typeSerial0:)")));
 @end
 
@@ -1148,20 +1242,61 @@ __attribute__((swift_name("TxOptions")))
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * When waiting for the tx to commit on-chain, how much time (in milliseconds) to wait between checks.
+ *
+ * Smaller intervals will cause more load on your node provider. Keep in mind that blocks on Secret Network take about 6 seconds to finalize.
+ *
+ * Defaults to `6_000`. Ignored if `waitForCommit = false`.
+ */
 @property (readonly) ClientInt * _Nullable broadcastCheckIntervalMs __attribute__((swift_name("broadcastCheckIntervalMs")));
+
+/**
+ * If `BroadcastMode.Sync` - Broadcast transaction to mempool and wait for CheckTx response.
+ *
+ * @see https://docs.tendermint.com/master/rpc/#/Tx/broadcast_tx_sync
+ *
+ * If `BroadcastMode.Async` Broadcast transaction to mempool and do not wait for CheckTx response.
+ *
+ * @see https://docs.tendermint.com/master/rpc/#/Tx/broadcast_tx_async
+ */
 @property (readonly) ClientBroadcastMode *broadcastMode __attribute__((swift_name("broadcastMode")));
+
+/**
+ * How much time (in milliseconds) to wait for tx to commit on-chain.
+ *
+ * Defaults to `60_000`. Ignored if `waitForCommit = false`.
+ */
 @property (readonly) ClientInt * _Nullable broadcastTimeoutMs __attribute__((swift_name("broadcastTimeoutMs")));
+
+/**
+ * explicitSignerData can be used to override `chainId`, `accountNumber` & `accountSequence`.
+ * This is useful when using {@link BroadcastMode.Async} or when you don't want secretjs
+ * to query for `accountNumber` & `accountSequence` from the chain. (smoother in UIs, less load on your node provider).
+ */
 @property (readonly) ClientSignerData * _Nullable explicitSignerData __attribute__((swift_name("explicitSignerData")));
 @property (readonly) NSString *feeDenom __attribute__((swift_name("feeDenom")));
+
+/** Address of the fee granter from which to charge gas fees. */
 @property (readonly) NSString * _Nullable feeGranter __attribute__((swift_name("feeGranter")));
+
+/** Defaults to `25_000`. */
 @property (readonly) int32_t gasLimit __attribute__((swift_name("gasLimit")));
+
+/** E.g. gasPriceInFeeDenom=0.1 & feeDenom="uscrt" => Total fee for tx is `0.1 * gasLimit`uscrt. Defaults to `0.1`. */
 @property (readonly) double gasPriceInFeeDenom __attribute__((swift_name("gasPriceInFeeDenom")));
 @property (readonly) NSString *memo __attribute__((swift_name("memo")));
+
+/** If `false` returns immediately with only the `transactionHash` field set. Defaults to `true`. */
 @property (readonly) BOOL waitForCommit __attribute__((swift_name("waitForCommit")));
 @end
 
 
-/**
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/google/protobuf/any.ts
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable
 */
@@ -1175,13 +1310,28 @@ __attribute__((swift_name("AnyProto")))
 @property (readonly) ClientKotlinByteArray *value __attribute__((swift_name("value")));
 @end
 
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/google/protobuf/any.ts
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("AnyProto.Companion")))
 @interface ClientAnyProtoCompanion : ClientBase
 + (instancetype)alloc __attribute__((unavailable));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/google/protobuf/any.ts
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) ClientAnyProtoCompanion *shared __attribute__((swift_name("shared")));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/google/protobuf/any.ts
+ */
 - (id<ClientKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
@@ -1190,7 +1340,10 @@ __attribute__((swift_name("MsgProto")))
 @end
 
 
-/**
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/tx/v1beta1/tx.ts
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable
 */
@@ -1203,18 +1356,36 @@ __attribute__((swift_name("AuthInfoProto")))
 @property (readonly) NSArray<ClientSignerInfoProto *> *signerInfos __attribute__((swift_name("signerInfos")));
 @end
 
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/tx/v1beta1/tx.ts
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("AuthInfoProto.Companion")))
 @interface ClientAuthInfoProtoCompanion : ClientBase
 + (instancetype)alloc __attribute__((unavailable));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/tx/v1beta1/tx.ts
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) ClientAuthInfoProtoCompanion *shared __attribute__((swift_name("shared")));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/tx/v1beta1/tx.ts
+ */
 - (id<ClientKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 
-/**
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/base/v1beta1/coin.ts
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable
 */
@@ -1224,25 +1395,58 @@ __attribute__((swift_name("CoinProto")))
 - (instancetype)initWithDenom:(NSString *)denom amount:(NSString *)amount __attribute__((swift_name("init(denom:amount:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) ClientCoinProtoCompanion *companion __attribute__((swift_name("companion")));
 - (ClientCoinProto *)doCopyDenom:(NSString *)denom amount:(NSString *)amount __attribute__((swift_name("doCopy(denom:amount:)")));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/base/v1beta1/coin.ts
+ */
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/base/v1beta1/coin.ts
+ */
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/base/v1beta1/coin.ts
+ */
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString *amount __attribute__((swift_name("amount")));
 @property (readonly) NSString *denom __attribute__((swift_name("denom")));
 @end
 
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/base/v1beta1/coin.ts
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("CoinProto.Companion")))
 @interface ClientCoinProtoCompanion : ClientBase
 + (instancetype)alloc __attribute__((unavailable));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/base/v1beta1/coin.ts
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) ClientCoinProtoCompanion *shared __attribute__((swift_name("shared")));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/base/v1beta1/coin.ts
+ */
 - (id<ClientKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 
-/**
+/***
+ * Reference:
+ * https://github.com/cosmos/cosmos-sdk/blob/main/proto/cosmos/tx/v1beta1/tx.proto
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable
 */
@@ -1257,18 +1461,36 @@ __attribute__((swift_name("FeeProto")))
 @property (readonly) NSString * _Nullable payer __attribute__((swift_name("payer")));
 @end
 
+
+/***
+ * Reference:
+ * https://github.com/cosmos/cosmos-sdk/blob/main/proto/cosmos/tx/v1beta1/tx.proto
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("FeeProto.Companion")))
 @interface ClientFeeProtoCompanion : ClientBase
 + (instancetype)alloc __attribute__((unavailable));
+
+/***
+ * Reference:
+ * https://github.com/cosmos/cosmos-sdk/blob/main/proto/cosmos/tx/v1beta1/tx.proto
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) ClientFeeProtoCompanion *shared __attribute__((swift_name("shared")));
+
+/***
+ * Reference:
+ * https://github.com/cosmos/cosmos-sdk/blob/main/proto/cosmos/tx/v1beta1/tx.proto
+ */
 - (id<ClientKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 
-/**
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/secret/registration/v1beta1/msg.ts
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable
 */
@@ -1280,18 +1502,36 @@ __attribute__((swift_name("KeyProto")))
 @property (readonly) ClientKotlinByteArray * _Nullable key __attribute__((swift_name("key")));
 @end
 
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/secret/registration/v1beta1/msg.ts
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KeyProto.Companion")))
 @interface ClientKeyProtoCompanion : ClientBase
 + (instancetype)alloc __attribute__((unavailable));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/secret/registration/v1beta1/msg.ts
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) ClientKeyProtoCompanion *shared __attribute__((swift_name("shared")));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/secret/registration/v1beta1/msg.ts
+ */
 - (id<ClientKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 
-/**
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/tx/v1beta1/tx.ts
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable
 */
@@ -1304,13 +1544,28 @@ __attribute__((swift_name("ModeInfoProto")))
 @property (readonly) ClientModeInfoProtoSingle * _Nullable single __attribute__((swift_name("single")));
 @end
 
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/tx/v1beta1/tx.ts
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ModeInfoProto.Companion")))
 @interface ClientModeInfoProtoCompanion : ClientBase
 + (instancetype)alloc __attribute__((unavailable));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/tx/v1beta1/tx.ts
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) ClientModeInfoProtoCompanion *shared __attribute__((swift_name("shared")));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/tx/v1beta1/tx.ts
+ */
 - (id<ClientKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
@@ -1369,7 +1624,10 @@ __attribute__((swift_name("ModeInfoProtoSingle.Companion")))
 @end
 
 
-/**
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable
 */
@@ -1383,41 +1641,87 @@ __attribute__((swift_name("MsgClearAdminProto")))
 @property (readonly) NSString *sender __attribute__((swift_name("sender")));
 @end
 
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MsgClearAdminProto.Companion")))
 @interface ClientMsgClearAdminProtoCompanion : ClientBase
 + (instancetype)alloc __attribute__((unavailable));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) ClientMsgClearAdminProtoCompanion *shared __attribute__((swift_name("shared")));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 - (id<ClientKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 
-/**
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable
 */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MsgClearAdminResponseProto")))
 @interface ClientMsgClearAdminResponseProto : ClientMsgProto
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 @property (class, readonly, getter=companion) ClientMsgClearAdminResponseProtoCompanion *companion __attribute__((swift_name("companion")));
 @end
 
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MsgClearAdminResponseProto.Companion")))
 @interface ClientMsgClearAdminResponseProtoCompanion : ClientBase
 + (instancetype)alloc __attribute__((unavailable));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) ClientMsgClearAdminResponseProtoCompanion *shared __attribute__((swift_name("shared")));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 - (id<ClientKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 
-/**
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/base/abci/v1beta1/abci.ts
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable
 */
@@ -1431,18 +1735,36 @@ __attribute__((swift_name("MsgDataProto")))
 @property (readonly) NSString *msgType __attribute__((swift_name("msgType")));
 @end
 
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/base/abci/v1beta1/abci.ts
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MsgDataProto.Companion")))
 @interface ClientMsgDataProtoCompanion : ClientBase
 + (instancetype)alloc __attribute__((unavailable));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/base/abci/v1beta1/abci.ts
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) ClientMsgDataProtoCompanion *shared __attribute__((swift_name("shared")));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/base/abci/v1beta1/abci.ts
+ */
 - (id<ClientKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 
-/**
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable
 */
@@ -1459,18 +1781,36 @@ __attribute__((swift_name("MsgExecuteContractProto")))
 @property (readonly) NSArray<ClientCoinProto *> *sentFunds __attribute__((swift_name("sentFunds")));
 @end
 
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MsgExecuteContractProto.Companion")))
 @interface ClientMsgExecuteContractProtoCompanion : ClientBase
 + (instancetype)alloc __attribute__((unavailable));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) ClientMsgExecuteContractProtoCompanion *shared __attribute__((swift_name("shared")));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 - (id<ClientKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 
-/**
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable
 */
@@ -1482,18 +1822,36 @@ __attribute__((swift_name("MsgExecuteContractResponseProto")))
 @property (readonly) ClientKotlinByteArray * _Nullable data __attribute__((swift_name("data")));
 @end
 
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MsgExecuteContractResponseProto.Companion")))
 @interface ClientMsgExecuteContractResponseProtoCompanion : ClientBase
 + (instancetype)alloc __attribute__((unavailable));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) ClientMsgExecuteContractResponseProtoCompanion *shared __attribute__((swift_name("shared")));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 - (id<ClientKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 
-/**
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable
 */
@@ -1512,18 +1870,36 @@ __attribute__((swift_name("MsgInstantiateContractProto")))
 @property (readonly) ClientKotlinByteArray *sender __attribute__((swift_name("sender")));
 @end
 
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MsgInstantiateContractProto.Companion")))
 @interface ClientMsgInstantiateContractProtoCompanion : ClientBase
 + (instancetype)alloc __attribute__((unavailable));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) ClientMsgInstantiateContractProtoCompanion *shared __attribute__((swift_name("shared")));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 - (id<ClientKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 
-/**
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable
 */
@@ -1536,18 +1912,36 @@ __attribute__((swift_name("MsgInstantiateContractResponseProto")))
 @property (readonly) ClientKotlinByteArray * _Nullable data __attribute__((swift_name("data")));
 @end
 
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MsgInstantiateContractResponseProto.Companion")))
 @interface ClientMsgInstantiateContractResponseProtoCompanion : ClientBase
 + (instancetype)alloc __attribute__((unavailable));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) ClientMsgInstantiateContractResponseProtoCompanion *shared __attribute__((swift_name("shared")));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 - (id<ClientKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 
-/**
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable
 */
@@ -1564,18 +1958,36 @@ __attribute__((swift_name("MsgMigrateContractProto")))
 @property (readonly) NSString *sender __attribute__((swift_name("sender")));
 @end
 
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MsgMigrateContractProto.Companion")))
 @interface ClientMsgMigrateContractProtoCompanion : ClientBase
 + (instancetype)alloc __attribute__((unavailable));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) ClientMsgMigrateContractProtoCompanion *shared __attribute__((swift_name("shared")));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 - (id<ClientKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 
-/**
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable
 */
@@ -1587,18 +1999,36 @@ __attribute__((swift_name("MsgMigrateContractResponseProto")))
 @property (readonly) ClientKotlinByteArray * _Nullable data __attribute__((swift_name("data")));
 @end
 
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MsgMigrateContractResponseProto.Companion")))
 @interface ClientMsgMigrateContractResponseProtoCompanion : ClientBase
 + (instancetype)alloc __attribute__((unavailable));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) ClientMsgMigrateContractResponseProtoCompanion *shared __attribute__((swift_name("shared")));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 - (id<ClientKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 
-/**
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/third_party/proto/cosmos/bank/v1beta1/tx.proto
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable
 */
@@ -1612,41 +2042,87 @@ __attribute__((swift_name("MsgSendProto")))
 @property (readonly) NSString *toAddress __attribute__((swift_name("toAddress")));
 @end
 
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/third_party/proto/cosmos/bank/v1beta1/tx.proto
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MsgSendProto.Companion")))
 @interface ClientMsgSendProtoCompanion : ClientBase
 + (instancetype)alloc __attribute__((unavailable));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/third_party/proto/cosmos/bank/v1beta1/tx.proto
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) ClientMsgSendProtoCompanion *shared __attribute__((swift_name("shared")));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/third_party/proto/cosmos/bank/v1beta1/tx.proto
+ */
 - (id<ClientKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 
-/**
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/third_party/proto/cosmos/bank/v1beta1/tx.proto
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable
 */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MsgSendResponseProto")))
 @interface ClientMsgSendResponseProto : ClientMsgProto
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/third_party/proto/cosmos/bank/v1beta1/tx.proto
+ */
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/third_party/proto/cosmos/bank/v1beta1/tx.proto
+ */
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 @property (class, readonly, getter=companion) ClientMsgSendResponseProtoCompanion *companion __attribute__((swift_name("companion")));
 @end
 
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/third_party/proto/cosmos/bank/v1beta1/tx.proto
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MsgSendResponseProto.Companion")))
 @interface ClientMsgSendResponseProtoCompanion : ClientBase
 + (instancetype)alloc __attribute__((unavailable));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/third_party/proto/cosmos/bank/v1beta1/tx.proto
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) ClientMsgSendResponseProtoCompanion *shared __attribute__((swift_name("shared")));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/third_party/proto/cosmos/bank/v1beta1/tx.proto
+ */
 - (id<ClientKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 
-/**
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable
 */
@@ -1661,18 +2137,36 @@ __attribute__((swift_name("MsgStoreCodeProto")))
 @property (readonly) ClientKotlinByteArray *wasmByteCode __attribute__((swift_name("wasmByteCode")));
 @end
 
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MsgStoreCodeProto.Companion")))
 @interface ClientMsgStoreCodeProtoCompanion : ClientBase
 + (instancetype)alloc __attribute__((unavailable));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) ClientMsgStoreCodeProtoCompanion *shared __attribute__((swift_name("shared")));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 - (id<ClientKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 
-/**
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable
 */
@@ -1684,18 +2178,36 @@ __attribute__((swift_name("MsgStoreCodeResponseProto")))
 @property (readonly) int32_t codeId __attribute__((swift_name("codeId")));
 @end
 
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MsgStoreCodeResponseProto.Companion")))
 @interface ClientMsgStoreCodeResponseProtoCompanion : ClientBase
 + (instancetype)alloc __attribute__((unavailable));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) ClientMsgStoreCodeResponseProtoCompanion *shared __attribute__((swift_name("shared")));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 - (id<ClientKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 
-/**
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable
 */
@@ -1710,36 +2222,79 @@ __attribute__((swift_name("MsgUpdateAdminProto")))
 @property (readonly) NSString *sender __attribute__((swift_name("sender")));
 @end
 
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MsgUpdateAdminProto.Companion")))
 @interface ClientMsgUpdateAdminProtoCompanion : ClientBase
 + (instancetype)alloc __attribute__((unavailable));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) ClientMsgUpdateAdminProtoCompanion *shared __attribute__((swift_name("shared")));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 - (id<ClientKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 
-/**
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable
 */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MsgUpdateAdminResponseProto")))
 @interface ClientMsgUpdateAdminResponseProto : ClientMsgProto
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 @property (class, readonly, getter=companion) ClientMsgUpdateAdminResponseProtoCompanion *companion __attribute__((swift_name("companion")));
 @end
 
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MsgUpdateAdminResponseProto.Companion")))
 @interface ClientMsgUpdateAdminResponseProtoCompanion : ClientBase
 + (instancetype)alloc __attribute__((unavailable));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) ClientMsgUpdateAdminResponseProtoCompanion *shared __attribute__((swift_name("shared")));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/proto/secret/compute/v1beta1/msg.proto
+ */
 - (id<ClientKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
@@ -1769,7 +2324,10 @@ __attribute__((swift_name("ProtoMsgCompanion")))
 @end
 
 
-/**
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/tx/v1beta1/tx.ts
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable
 */
@@ -1784,20 +2342,45 @@ __attribute__((swift_name("SignDocProto")))
 @property (readonly) NSString *chainId __attribute__((swift_name("chainId")));
 @end
 
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/tx/v1beta1/tx.ts
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("SignDocProto.Companion")))
 @interface ClientSignDocProtoCompanion : ClientBase
 + (instancetype)alloc __attribute__((unavailable));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/tx/v1beta1/tx.ts
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) ClientSignDocProtoCompanion *shared __attribute__((swift_name("shared")));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/tx/v1beta1/tx.ts
+ */
 - (id<ClientKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/tx/signing/v1beta1/signing.ts
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("SignMode")))
 @interface ClientSignMode : ClientKotlinEnum<ClientSignMode *>
 + (instancetype)alloc __attribute__((unavailable));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/tx/signing/v1beta1/signing.ts
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 - (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @property (class, readonly, getter=companion) ClientSignModeCompanion *companion __attribute__((swift_name("companion")));
@@ -1823,7 +2406,10 @@ __attribute__((swift_name("SignMode.Companion")))
 @end
 
 
-/**
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/cosmwasm/enclaves/execute/proto/cosmos/tx/v1beta1/tx.proto
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable
 */
@@ -1837,18 +2423,36 @@ __attribute__((swift_name("SignerInfoProto")))
 @property (readonly) ClientInt * _Nullable sequence __attribute__((swift_name("sequence")));
 @end
 
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/cosmwasm/enclaves/execute/proto/cosmos/tx/v1beta1/tx.proto
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("SignerInfoProto.Companion")))
 @interface ClientSignerInfoProtoCompanion : ClientBase
 + (instancetype)alloc __attribute__((unavailable));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/cosmwasm/enclaves/execute/proto/cosmos/tx/v1beta1/tx.proto
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) ClientSignerInfoProtoCompanion *shared __attribute__((swift_name("shared")));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/SecretNetwork/blob/master/cosmwasm/enclaves/execute/proto/cosmos/tx/v1beta1/tx.proto
+ */
 - (id<ClientKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 
-/**
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/tx/v1beta1/tx.ts
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable
 */
@@ -1864,41 +2468,77 @@ __attribute__((swift_name("TxBodyProto")))
 @property (readonly) NSString *timeoutHeight __attribute__((swift_name("timeoutHeight")));
 @end
 
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/tx/v1beta1/tx.ts
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("TxBodyProto.Companion")))
 @interface ClientTxBodyProtoCompanion : ClientBase
 + (instancetype)alloc __attribute__((unavailable));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/tx/v1beta1/tx.ts
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) ClientTxBodyProtoCompanion *shared __attribute__((swift_name("shared")));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/tx/v1beta1/tx.ts
+ */
 - (id<ClientKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 
-/**
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/base/abci/v1beta1/abci.ts
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable
 */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("TxMsgDataProto")))
 @interface ClientTxMsgDataProto : ClientMsgProto
-- (instancetype)initWithData:(NSArray<ClientMsgDataProto *> *)data __attribute__((swift_name("init(data:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMsg_responses:(NSArray<ClientAnyProto *> *)msg_responses __attribute__((swift_name("init(msg_responses:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) ClientTxMsgDataProtoCompanion *companion __attribute__((swift_name("companion")));
-@property (readonly) NSArray<ClientMsgDataProto *> *data __attribute__((swift_name("data")));
+@property (readonly) NSArray<ClientAnyProto *> *msg_responses __attribute__((swift_name("msg_responses")));
 @end
 
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/base/abci/v1beta1/abci.ts
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("TxMsgDataProto.Companion")))
 @interface ClientTxMsgDataProtoCompanion : ClientBase
 + (instancetype)alloc __attribute__((unavailable));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/base/abci/v1beta1/abci.ts
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) ClientTxMsgDataProtoCompanion *shared __attribute__((swift_name("shared")));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/base/abci/v1beta1/abci.ts
+ */
 - (id<ClientKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 
-/**
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/tx/v1beta1/tx.ts
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable
 */
@@ -1912,13 +2552,28 @@ __attribute__((swift_name("TxRawProto")))
 @property (readonly) NSArray<ClientKotlinByteArray *> *signatures __attribute__((swift_name("signatures")));
 @end
 
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/tx/v1beta1/tx.ts
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("TxRawProto.Companion")))
 @interface ClientTxRawProtoCompanion : ClientBase
 + (instancetype)alloc __attribute__((unavailable));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/tx/v1beta1/tx.ts
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) ClientTxRawProtoCompanion *shared __attribute__((swift_name("shared")));
+
+/***
+ * Reference:
+ * https://github.com/scrtlabs/secret.js/blob/master/src/protobuf_stuff/cosmos/tx/v1beta1/tx.ts
+ */
 - (id<ClientKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
@@ -2003,17 +2658,17 @@ __attribute__((swift_name("AccountResponse.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ApplicationVersion")))
 @interface ClientApplicationVersion : ClientBase
-- (instancetype)initWithName:(NSString *)name server_name:(NSString *)server_name version:(NSString *)version commit:(NSString *)commit build_tags:(NSString *)build_tags go:(NSString *)go __attribute__((swift_name("init(name:server_name:version:commit:build_tags:go:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithName:(NSString *)name appName:(NSString *)appName version:(NSString *)version gitCommit:(NSString *)gitCommit buildTags:(NSString *)buildTags goVersion:(NSString *)goVersion __attribute__((swift_name("init(name:appName:version:gitCommit:buildTags:goVersion:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) ClientApplicationVersionCompanion *companion __attribute__((swift_name("companion")));
-- (ClientApplicationVersion *)doCopyName:(NSString *)name server_name:(NSString *)server_name version:(NSString *)version commit:(NSString *)commit build_tags:(NSString *)build_tags go:(NSString *)go __attribute__((swift_name("doCopy(name:server_name:version:commit:build_tags:go:)")));
+- (ClientApplicationVersion *)doCopyName:(NSString *)name appName:(NSString *)appName version:(NSString *)version gitCommit:(NSString *)gitCommit buildTags:(NSString *)buildTags goVersion:(NSString *)goVersion __attribute__((swift_name("doCopy(name:appName:version:gitCommit:buildTags:goVersion:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *build_tags __attribute__((swift_name("build_tags")));
-@property (readonly) NSString *commit __attribute__((swift_name("commit")));
-@property (readonly) NSString *go __attribute__((swift_name("go")));
+@property (readonly) NSString *appName __attribute__((swift_name("appName")));
+@property (readonly) NSString *buildTags __attribute__((swift_name("buildTags")));
+@property (readonly) NSString *gitCommit __attribute__((swift_name("gitCommit")));
+@property (readonly) NSString *goVersion __attribute__((swift_name("goVersion")));
 @property (readonly) NSString *name __attribute__((swift_name("name")));
-@property (readonly) NSString *server_name __attribute__((swift_name("server_name")));
 @property (readonly) NSString *version __attribute__((swift_name("version")));
 @end
 
@@ -2136,6 +2791,33 @@ __attribute__((swift_name("BlockResponse.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) ClientBlockResponseCompanion *shared __attribute__((swift_name("shared")));
+- (id<ClientKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CodeHashResponse")))
+@interface ClientCodeHashResponse : ClientBase
+- (instancetype)initWithCodeHash:(NSString *)codeHash __attribute__((swift_name("init(codeHash:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) ClientCodeHashResponseCompanion *companion __attribute__((swift_name("companion")));
+- (ClientCodeHashResponse *)doCopyCodeHash:(NSString *)codeHash __attribute__((swift_name("doCopy(codeHash:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *codeHash __attribute__((swift_name("codeHash")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CodeHashResponse.Companion")))
+@interface ClientCodeHashResponseCompanion : ClientBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) ClientCodeHashResponseCompanion *shared __attribute__((swift_name("shared")));
 - (id<ClientKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
@@ -2365,13 +3047,15 @@ __attribute__((swift_name("GasInfo")))
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 
-/**
+/** Amount of gas consumed by transaction.
+ *
  * @note annotations
  *   kotlinx.serialization.SerialName(value="gas_used")
 */
 @property (readonly) NSString *gasUsed __attribute__((swift_name("gasUsed")));
 
-/**
+/** Amount of gas requested for transaction.
+ *
  * @note annotations
  *   kotlinx.serialization.SerialName(value="gas_wanted")
 */
@@ -2506,19 +3190,19 @@ __attribute__((swift_name("LastCommit.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("NodeInfo")))
 @interface ClientNodeInfo : ClientBase
-- (instancetype)initWithProtocol_version:(ClientProtocolVersion *)protocol_version id:(NSString *)id listen_addr:(NSString *)listen_addr network:(NSString *)network version:(NSString *)version channels:(NSString *)channels moniker:(NSString *)moniker other:(ClientNodeInfoOther *)other __attribute__((swift_name("init(protocol_version:id:listen_addr:network:version:channels:moniker:other:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithProtocolVersion:(ClientProtocolVersion *)protocolVersion defaultNodeId:(NSString *)defaultNodeId listenAddr:(NSString *)listenAddr network:(NSString *)network version:(NSString *)version channels:(NSString *)channels moniker:(NSString *)moniker other:(ClientNodeInfoOther *)other __attribute__((swift_name("init(protocolVersion:defaultNodeId:listenAddr:network:version:channels:moniker:other:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) ClientNodeInfoCompanion *companion __attribute__((swift_name("companion")));
-- (ClientNodeInfo *)doCopyProtocol_version:(ClientProtocolVersion *)protocol_version id:(NSString *)id listen_addr:(NSString *)listen_addr network:(NSString *)network version:(NSString *)version channels:(NSString *)channels moniker:(NSString *)moniker other:(ClientNodeInfoOther *)other __attribute__((swift_name("doCopy(protocol_version:id:listen_addr:network:version:channels:moniker:other:)")));
+- (ClientNodeInfo *)doCopyProtocolVersion:(ClientProtocolVersion *)protocolVersion defaultNodeId:(NSString *)defaultNodeId listenAddr:(NSString *)listenAddr network:(NSString *)network version:(NSString *)version channels:(NSString *)channels moniker:(NSString *)moniker other:(ClientNodeInfoOther *)other __attribute__((swift_name("doCopy(protocolVersion:defaultNodeId:listenAddr:network:version:channels:moniker:other:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString *channels __attribute__((swift_name("channels")));
-@property (readonly) NSString *id __attribute__((swift_name("id")));
-@property (readonly) NSString *listen_addr __attribute__((swift_name("listen_addr")));
+@property (readonly) NSString *defaultNodeId __attribute__((swift_name("defaultNodeId")));
+@property (readonly) NSString *listenAddr __attribute__((swift_name("listenAddr")));
 @property (readonly) NSString *moniker __attribute__((swift_name("moniker")));
 @property (readonly) NSString *network __attribute__((swift_name("network")));
 @property (readonly) ClientNodeInfoOther *other __attribute__((swift_name("other")));
-@property (readonly) ClientProtocolVersion *protocol_version __attribute__((swift_name("protocol_version")));
+@property (readonly) ClientProtocolVersion *protocolVersion __attribute__((swift_name("protocolVersion")));
 @property (readonly) NSString *version __attribute__((swift_name("version")));
 @end
 
@@ -2540,14 +3224,14 @@ __attribute__((swift_name("NodeInfo.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("NodeInfoOther")))
 @interface ClientNodeInfoOther : ClientBase
-- (instancetype)initWithTx_index:(NSString *)tx_index rpc_address:(NSString *)rpc_address __attribute__((swift_name("init(tx_index:rpc_address:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithTxIndex:(NSString *)txIndex rpcAddress:(NSString *)rpcAddress __attribute__((swift_name("init(txIndex:rpcAddress:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) ClientNodeInfoOtherCompanion *companion __attribute__((swift_name("companion")));
-- (ClientNodeInfoOther *)doCopyTx_index:(NSString *)tx_index rpc_address:(NSString *)rpc_address __attribute__((swift_name("doCopy(tx_index:rpc_address:)")));
+- (ClientNodeInfoOther *)doCopyTxIndex:(NSString *)txIndex rpcAddress:(NSString *)rpcAddress __attribute__((swift_name("doCopy(txIndex:rpcAddress:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *rpc_address __attribute__((swift_name("rpc_address")));
-@property (readonly) NSString *tx_index __attribute__((swift_name("tx_index")));
+@property (readonly) NSString *rpcAddress __attribute__((swift_name("rpcAddress")));
+@property (readonly) NSString *txIndex __attribute__((swift_name("txIndex")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2568,10 +3252,10 @@ __attribute__((swift_name("NodeInfoOther.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("NodeInfoResponse")))
 @interface ClientNodeInfoResponse : ClientBase
-- (instancetype)initWithNode_info:(ClientNodeInfo *)node_info application_version:(ClientApplicationVersion *)application_version __attribute__((swift_name("init(node_info:application_version:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithDefaultNodeInfo:(ClientNodeInfo *)defaultNodeInfo applicationVersion:(ClientApplicationVersion *)applicationVersion __attribute__((swift_name("init(defaultNodeInfo:applicationVersion:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) ClientNodeInfoResponseCompanion *companion __attribute__((swift_name("companion")));
-@property (readonly) ClientApplicationVersion *application_version __attribute__((swift_name("application_version")));
-@property (readonly) ClientNodeInfo *node_info __attribute__((swift_name("node_info")));
+@property (readonly) ClientApplicationVersion *applicationVersion __attribute__((swift_name("applicationVersion")));
+@property (readonly) ClientNodeInfo *defaultNodeInfo __attribute__((swift_name("defaultNodeInfo")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2713,6 +3397,8 @@ __attribute__((swift_name("SimulateTxsResponse")))
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+
+/** Response code. */
 @property (readonly) ClientInt * _Nullable code __attribute__((swift_name("code")));
 @property (readonly) NSArray<NSString *> * _Nullable details __attribute__((swift_name("details")));
 
@@ -2749,8 +3435,21 @@ __attribute__((swift_name("SimulateTxsResponseData")))
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+
+/** Result bytes, if any. */
 @property (readonly) NSString *data __attribute__((swift_name("data")));
+
+/**
+ * Events defines all the events emitted by processing a transaction. Note,
+ * these events include those emitted by processing all the messages and those
+ * emitted from the ante handler. Whereas Logs contains the events, with
+ * additional metadata, emitted only by processing the messages.
+ *
+ * Since: cosmos-sdk 0.42.11, 0.44.5, 0.45
+ */
 @property (readonly) NSArray<ClientEvent *> *events __attribute__((swift_name("events")));
+
+/** The output of the application's logger (typed). May be non-deterministic. */
 @property (readonly) NSArray<ClientLog *> *logs __attribute__((swift_name("logs")));
 @end
 
@@ -2824,7 +3523,11 @@ __attribute__((swift_name("TxResponseData")))
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+
+/** Response code. */
 @property (readonly) ClientInt * _Nullable code __attribute__((swift_name("code")));
+
+/** Namespace for the Code */
 @property (readonly) NSString *codespace __attribute__((swift_name("codespace")));
 
 /**
@@ -2832,36 +3535,67 @@ __attribute__((swift_name("TxResponseData")))
  *   kotlinx.serialization.SerialName(value="unused")
 */
 @property NSArray<NSString *> *data __attribute__((swift_name("data")));
-@property (readonly) NSArray<ClientEvent *> *events __attribute__((swift_name("events")));
 
 /**
+ * Events defines all the events emitted by processing a transaction. Note,
+ * these events include those emitted by processing all the messages and those
+ * emitted from the ante handler. Whereas Logs contains the events, with
+ * additional metadata, emitted only by processing the messages.
+ *
+ * Since: cosmos-sdk 0.42.11, 0.44.5, 0.45
+ */
+@property (readonly) NSArray<ClientEvent *> *events __attribute__((swift_name("events")));
+
+/** Amount of gas consumed by transaction.
+ *
  * @note annotations
  *   kotlinx.serialization.SerialName(value="gas_used")
 */
 @property (readonly) NSString * _Nullable gasUsed __attribute__((swift_name("gasUsed")));
 
-/**
+/** Amount of gas requested for transaction.
+ *
  * @note annotations
  *   kotlinx.serialization.SerialName(value="gas_wanted")
 */
 @property (readonly) NSString * _Nullable gasWanted __attribute__((swift_name("gasWanted")));
+
+/** The block height */
 @property (readonly) NSString *height __attribute__((swift_name("height")));
+
+/** Additional information. May be non-deterministic. */
 @property (readonly) NSString * _Nullable info __attribute__((swift_name("info")));
+
+/** The output of the application's logger (typed). May be non-deterministic. */
 @property (readonly) NSArray<ClientLog *> *logs __attribute__((swift_name("logs")));
 
-/**
+/** Result bytes, if any.
+ *
  * @note annotations
  *   kotlinx.serialization.SerialName(value="data")
 */
 @property (readonly) NSString *rawData __attribute__((swift_name("rawData")));
 
 /**
+ * The output of the application's logger (raw string). May be
+ * non-deterministic.
+ *
  * @note annotations
  *   kotlinx.serialization.SerialName(value="raw_log")
 */
 @property (readonly) NSString * _Nullable rawLog __attribute__((swift_name("rawLog")));
+
+/**
+ * Time of the previous block. For heights > 1, it's the weighted median of
+ * the timestamps of the valid votes in the block.LastCommit. For height == 1,
+ * it's genesis time.
+ */
 @property (readonly) NSString *timestamp __attribute__((swift_name("timestamp")));
+
+/** The request transaction bytes. */
 @property ClientAnyProto * _Nullable tx __attribute__((swift_name("tx")));
+
+/** The transaction hash. */
 @property (readonly) NSString *txhash __attribute__((swift_name("txhash")));
 @end
 
@@ -3270,14 +4004,13 @@ __attribute__((swift_name("Result.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("TxKeyResponse")))
 @interface ClientTxKeyResponse : ClientBase
-- (instancetype)initWithHeight:(int32_t)height result:(ClientResult *)result __attribute__((swift_name("init(height:result:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithKey:(NSString *)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) ClientTxKeyResponseCompanion *companion __attribute__((swift_name("companion")));
-- (ClientTxKeyResponse *)doCopyHeight:(int32_t)height result:(ClientResult *)result __attribute__((swift_name("doCopy(height:result:)")));
+- (ClientTxKeyResponse *)doCopyKey:(NSString *)key __attribute__((swift_name("doCopy(key:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) int32_t height __attribute__((swift_name("height")));
-@property (readonly) ClientResult *result __attribute__((swift_name("result")));
+@property (readonly) NSString *key __attribute__((swift_name("key")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -3298,6 +4031,8 @@ __attribute__((swift_name("AccountData")))
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+
+/** A printable address (typically bech32 encoded) */
 @property (readonly) NSString *address __attribute__((swift_name("address")));
 @property (readonly) ClientAlgo *algo __attribute__((swift_name("algo")));
 @property (readonly) id pubkey __attribute__((swift_name("pubkey")));
@@ -3340,6 +4075,11 @@ __attribute__((swift_name("AminoSignResponse")))
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) ClientSecret_std_typesStdSignature *signature __attribute__((swift_name("signature")));
+
+/**
+ * The sign doc that was signed.
+ * This may be different from the input signDoc when the signer modifies it as part of the signing process.
+ */
 @property (readonly, getter=signed) ClientStdSignDoc *signed_ __attribute__((swift_name("signed_")));
 @end
 
@@ -3394,11 +4134,23 @@ __attribute__((swift_name("BaseWallet")))
 - (void)getAccountAddress:(NSString *)address completionHandler:(void (^)(ClientAccountData * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("getAccount(address:completionHandler:)")));
 
 /**
+ * Get AccountData array from wallet. Rejects if not enabled.
+ *
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)getAccountsWithCompletionHandler:(void (^)(NSArray<ClientAccountData *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getAccounts(completionHandler:)")));
+
+/**
+ * Removes all account data for an address including private keys.
+ *
+ * @return Returns [AccountData] if account is successfully removed from wallet.
+ */
 - (ClientAccountData * _Nullable)removeAccountAddress:(NSString *)address __attribute__((swift_name("removeAccount(address:)")));
+
+/**
+ * Creates and returns a signature
+ */
 - (ClientSecret_std_typesStdSignature *)signSignerAddress:(NSString *)signerAddress signBytes:(id)signBytes prehashType:(ClientPrehashType *)prehashType __attribute__((swift_name("sign(signerAddress:signBytes:prehashType:)")));
 
 /**
@@ -3463,13 +4215,33 @@ __attribute__((swift_name("SignResponse")))
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) ClientSecret_std_typesStdSignature *signature __attribute__((swift_name("signature")));
+
+/**
+ * The sign doc that was signed.
+ * This may be different from the input signDoc when the signer modifies it as part of the signing process.
+ */
 @property (readonly, getter=signed) ClientSignDocProto *signed_ __attribute__((swift_name("signed_")));
 @end
 
+
+/**
+ * implementation of RIPEMD see,
+ * http://www.esat.kuleuven.ac.be/~bosselae/ripemd160.html
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Ripemd160Digest")))
 @interface ClientRipemd160Digest : ClientBase
+
+/**
+ * implementation of RIPEMD see,
+ * http://www.esat.kuleuven.ac.be/~bosselae/ripemd160.html
+ */
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
+
+/**
+ * implementation of RIPEMD see,
+ * http://www.esat.kuleuven.ac.be/~bosselae/ripemd160.html
+ */
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 @property (class, readonly, getter=companion) ClientRipemd160DigestCompanion *companion __attribute__((swift_name("companion")));
 - (int32_t)doFinalOut:(ClientKotlinByteArray *)out outOffset:(int32_t)outOffset __attribute__((swift_name("doFinal(out:outOffset:)")));
@@ -3535,6 +4307,10 @@ __attribute__((swift_name("KotlinByteArray")))
 @end
 
 @interface ClientKotlinByteArray (Extensions)
+
+/**
+ * Computes the RIPEMD160 from [this] [ByteArray].
+ */
 - (ClientKotlinByteArray *)digestRipemd160 __attribute__((swift_name("digestRipemd160()")));
 @end
 
@@ -3599,6 +4375,13 @@ __attribute__((swift_name("OkioByteString")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("BaseWalletKt")))
 @interface ClientBaseWalletKt : ClientBase
+
+/**
+ * The Cosmoshub derivation path in the form `m/44'/118'/0'/0/a`
+ * with 0-based account index `a`.
+ * The Secret Network derivation path in the form `m/44'/529'/0'/0/a`
+ * with 0-based account index `a`.
+ */
 + (ClientKotlinArray<id> *)makeSecretNetworkPathA:(uint32_t)a __attribute__((swift_name("makeSecretNetworkPath(a:)")));
 @end
 
@@ -3616,8 +4399,27 @@ __attribute__((swift_name("HelpersKt")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("HexKt")))
 @interface ClientHexKt : ClientBase
+
+/**
+ * Parses the given [value] reading it as an hexadecimal string, and returns its byte array representation.
+ *
+ * Note that either 0x-prefixed string and no-prefixed hex strings are supported.
+ *
+ * @throws IllegalArgumentException if the [value] is not an hexadecimal string.
+ */
 + (ClientKotlinByteArray *)decodeValue:(NSString *)value __attribute__((swift_name("decode(value:)")));
+
+/**
+ * Encodes the given byte [value] as an hexadecimal character.
+ */
 + (NSString *)encodeValue:(int8_t)value __attribute__((swift_name("encode(value:)")));
+
+/**
+ * Encodes the given byte array [value] to its hexadecimal representations, and prepends the given [prefix] to it.
+ *
+ * Note that by default the 0x prefix is prepended to the result of the conversion.
+ * If you want to have the representation without the 0x prefix, pass to this method an empty [prefix].
+ */
 + (NSString *)encodeValue:(ClientKotlinByteArray *)value prefix:(NSString *)prefix __attribute__((swift_name("encode(value:prefix:)")));
 @end
 
@@ -3636,6 +4438,10 @@ __attribute__((swift_name("PubkeyKt")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PublicExtensionsKt")))
 @interface ClientPublicExtensionsKt : ClientBase
+
+/**
+ * Computes the RIPEMD160 for [this] string.
+ */
 + (ClientKotlinByteArray *)digestRipemd160:(NSString *)receiver __attribute__((swift_name("digestRipemd160(_:)")));
 @end
 
@@ -3999,66 +4805,16 @@ __attribute__((swift_name("Kotlinx_serialization_coreEncoder")))
 __attribute__((swift_name("Kotlinx_serialization_coreSerialDescriptor")))
 @protocol ClientKotlinx_serialization_coreSerialDescriptor
 @required
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
 - (NSArray<id<ClientKotlinAnnotation>> *)getElementAnnotationsIndex:(int32_t)index __attribute__((swift_name("getElementAnnotations(index:)")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
 - (id<ClientKotlinx_serialization_coreSerialDescriptor>)getElementDescriptorIndex:(int32_t)index __attribute__((swift_name("getElementDescriptor(index:)")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
 - (int32_t)getElementIndexName:(NSString *)name __attribute__((swift_name("getElementIndex(name:)")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
 - (NSString *)getElementNameIndex:(int32_t)index __attribute__((swift_name("getElementName(index:)")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
 - (BOOL)isElementOptionalIndex:(int32_t)index __attribute__((swift_name("isElementOptional(index:)")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
 @property (readonly) NSArray<id<ClientKotlinAnnotation>> *annotations __attribute__((swift_name("annotations")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
 @property (readonly) int32_t elementsCount __attribute__((swift_name("elementsCount")));
 @property (readonly) BOOL isInline __attribute__((swift_name("isInline")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
 @property (readonly) BOOL isNullable __attribute__((swift_name("isNullable")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
 @property (readonly) ClientKotlinx_serialization_coreSerialKind *kind __attribute__((swift_name("kind")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
 @property (readonly) NSString *serialName __attribute__((swift_name("serialName")));
 @end
 
@@ -4234,6 +4990,7 @@ __attribute__((swift_name("Kotlinx_serialization_jsonJson")))
 - (id _Nullable)decodeFromStringString:(NSString *)string __attribute__((swift_name("decodeFromString(string:)")));
 - (id _Nullable)decodeFromStringDeserializer:(id<ClientKotlinx_serialization_coreDeserializationStrategy>)deserializer string:(NSString *)string __attribute__((swift_name("decodeFromString(deserializer:string:)")));
 - (ClientKotlinx_serialization_jsonJsonElement *)encodeToJsonElementSerializer:(id<ClientKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeToJsonElement(serializer:value:)")));
+- (NSString *)encodeToStringValue:(id _Nullable)value __attribute__((swift_name("encodeToString(value:)")));
 - (NSString *)encodeToStringSerializer:(id<ClientKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeToString(serializer:value:)")));
 - (ClientKotlinx_serialization_jsonJsonElement *)parseToJsonElementString:(NSString *)string __attribute__((swift_name("parseToJsonElement(string:)")));
 @property (readonly) ClientKotlinx_serialization_jsonJsonConfiguration *configuration __attribute__((swift_name("configuration")));
@@ -4482,6 +5239,7 @@ __attribute__((swift_name("BignumModularBigInteger")))
 - (float)floatValueExactRequired:(BOOL)exactRequired __attribute__((swift_name("floatValue(exactRequired:)")));
 - (id<ClientBignumBigNumberCreator>)getCreator __attribute__((swift_name("getCreator()")));
 - (ClientBignumModularBigInteger *)getInstance __attribute__((swift_name("getInstance()")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (int32_t)intValueExactRequired:(BOOL)exactRequired __attribute__((swift_name("intValue(exactRequired:)")));
 - (ClientBignumModularBigInteger *)inverse __attribute__((swift_name("inverse()")));
 - (BOOL)isZero __attribute__((swift_name("isZero()")));
@@ -4598,11 +5356,6 @@ __attribute__((swift_name("KotlinAnnotation")))
 @required
 @end
 
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
 __attribute__((swift_name("Kotlinx_serialization_coreSerialKind")))
 @interface ClientKotlinx_serialization_coreSerialKind : ClientBase
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -4688,6 +5441,12 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Kotlinx_serialization_jsonJsonConfiguration")))
 @interface ClientKotlinx_serialization_jsonJsonConfiguration : ClientBase
 - (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+@property (readonly) BOOL allowComments __attribute__((swift_name("allowComments")));
 @property (readonly) BOOL allowSpecialFloatingPointValues __attribute__((swift_name("allowSpecialFloatingPointValues")));
 @property (readonly) BOOL allowStructuredMapKeys __attribute__((swift_name("allowStructuredMapKeys")));
 
@@ -4711,11 +5470,6 @@ __attribute__((swift_name("Kotlinx_serialization_jsonJsonConfiguration")))
 */
 @property (readonly) BOOL decodeEnumsCaseInsensitive __attribute__((swift_name("decodeEnumsCaseInsensitive")));
 @property (readonly) BOOL encodeDefaults __attribute__((swift_name("encodeDefaults")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
 @property (readonly) BOOL explicitNulls __attribute__((swift_name("explicitNulls")));
 @property (readonly) BOOL ignoreUnknownKeys __attribute__((swift_name("ignoreUnknownKeys")));
 @property (readonly) BOOL isLenient __attribute__((swift_name("isLenient")));

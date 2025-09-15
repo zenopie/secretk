@@ -8,5 +8,5 @@ import kotlinx.serialization.protobuf.ProtoNumber
  */
 @kotlinx.serialization.Serializable
 class TxMsgDataProto(
-    @ProtoNumber(1) val data: List<MsgDataProto> = emptyList()
+    @ProtoNumber(2) val msg_responses: List<AnyProto> = emptyList()
 ) : MsgProto()

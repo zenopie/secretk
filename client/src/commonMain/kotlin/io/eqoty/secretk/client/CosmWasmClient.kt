@@ -4,8 +4,13 @@ import io.eqoty.cosmwasm.std.types.CodeInfo
 import io.eqoty.secretk.BroadcastMode
 import io.eqoty.secretk.types.response.*
 import io.eqoty.secretk.utils.EncryptionUtils
+import kotlinx.coroutines.delay
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.jsonObject
+import kotlin.time.Clock
+import kotlin.time.Duration
+import kotlin.time.DurationUnit
+import kotlin.time.toDuration
 
 open class CosmWasmClient protected constructor(
     apiUrl: String,
@@ -95,8 +100,11 @@ open class CosmWasmClient protected constructor(
         }
     }
 
-    suspend fun getTx(hash: String): TxResponseData {
-        return when (val response: TxResponse = restClient.postTx(tx, false)) {
+    suspend fun getTx(hash: String, timeoutAfter: Duration = 10.toDuration(DurationUnit.SECONDS)): TxResponseData {
+        val currentInstant = Clock.System.now()
+        val deadline = currentInstant + timeoutAfter
+
+        return when (val response: TxResponse = restClient.getTx(hash)) {
             is TxResponseValid -> {
                 val txResponse = response.txResponse
                 if (txResponse.txhash.isBlank()) {
@@ -113,7 +121,13 @@ open class CosmWasmClient protected constructor(
             }
 
             is TxResponseError -> {
-                throw Error("Request Error code:${response.code}, message: ${response.message} }")
+                if (response.code == 5 && Clock.System.now() < deadline) {
+                    // try again in 0.5 sec
+                    delay(500)
+                    return getTx(hash, deadline - Clock.System.now())
+                } else {
+                    throw Error("Request Error code:${response.code}, message: ${response.message} }")
+                }
             }
         }
     }

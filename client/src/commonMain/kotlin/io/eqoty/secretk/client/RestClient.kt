@@ -7,7 +7,10 @@ import io.eqoty.secretk.types.proto.MsgInstantiateContractResponseProto
 import io.eqoty.secretk.types.proto.MsgProto
 import io.eqoty.secretk.types.response.*
 import io.eqoty.secretk.types.response.logs.Log
-import io.eqoty.secretk.utils.*
+import io.eqoty.secretk.utils.EncryptionUtils
+import io.eqoty.secretk.utils.decodeToString
+import io.eqoty.secretk.utils.toByteString
+import io.eqoty.secretk.utils.toUByteArray
 import io.ktor.client.*
 import io.ktor.client.call.*
 import io.ktor.client.plugins.*
@@ -58,7 +61,8 @@ internal class RestClient(
         } catch (e: ResponseException) {
             throw parseError(e)
         }
-        return response.body()
+        val body = response.bodyAsText()
+        return Json.decodeFromString(body)
     }
 
     suspend inline fun <reified T> post(path: String, params: JsonObject): T {
@@ -107,6 +111,10 @@ internal class RestClient(
         return post(path, params)
     }
 
+    suspend inline fun <reified T : Any> getTx(hash: String): T {
+        val path = "/cosmos/tx/v1beta1/txs/$hash"
+        return get(path)
+    }
 
     suspend fun getCodeHashByContractAddr(addr: String): String {
         return addressToCodeHashCache.getOrPut(addr) {

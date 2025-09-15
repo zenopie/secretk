@@ -1,6 +1,5 @@
 framework module "client" {
     umbrella header "client.h"
-
     export *
     module * { export * }
 }
