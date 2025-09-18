@@ -27,12 +27,6 @@ class ClientTests {
     val mnemonic = "sand check forward humble between movie language siege where social crumble mouse"
     var wallet = DirectSigningWallet(mnemonic)
 
-    @BeforeTest
-    fun beforeEach() = runTest {
-        platformBeforeEach()
-    }
-
-
     @Test
     fun walletsUnique() = runTest(timeout = 20.seconds) {
         val mnemonics = mutableSetOf<String>()

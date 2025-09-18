@@ -1,5 +1,3 @@
-import com.vanniktech.maven.publish.SonatypeHost
-
 plugins {
     alias(libs.plugins.org.jetbrains.kotlin.multiplatform)
     alias(libs.plugins.org.jetbrains.kotlin.plugin.serialization)
@@ -35,12 +33,5 @@ kotlin {
                 implementation(libs.io.github.luca992.getenv)
             }
         }
-    }
-}
-
-plugins.withId("com.vanniktech.maven.publish") {
-    mavenPublishing {
-        publishToMavenCentral(SonatypeHost.S01)
-        signAllPublications()
     }
 }

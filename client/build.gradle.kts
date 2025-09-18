@@ -1,6 +1,5 @@
 @file:OptIn(ExperimentalWasmDsl::class)
 
-import com.vanniktech.maven.publish.SonatypeHost
 import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
 import org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTarget
 
@@ -32,21 +31,9 @@ kotlin {
             }
         }
     }
-    wasmJs{
-        browser {
-            testTask {
-                useMocha {
-                    timeout = "20s"
-                }
-            }
-        }
-        nodejs {
-            testTask {
-                useMocha {
-                    timeout = "20s"
-                }
-            }
-        }
+    wasmJs {
+        browser()
+        nodejs()
     }
 
     iosArm64(); iosX64(); iosSimulatorArm64()
@@ -68,7 +55,7 @@ kotlin {
             languageSettings.optIn("kotlinx.serialization.ExperimentalSerializationApi")
             languageSettings.optIn("kotlin.time.ExperimentalTime")
         }
-        val commonMain by getting {
+        commonMain {
             dependencies {
                 api(project(":cosmwasm-std-types"))
                 api(project(":secret-std-types"))
@@ -92,20 +79,20 @@ kotlin {
                 implementation(libs.io.eqoty.kryptools.secp256k1)
             }
         }
-        val commonTest by getting {
+        commonTest {
             dependencies {
                 implementation(kotlin("test"))
                 implementation(libs.kotlinx.coroutines.test)
             }
         }
-        val jvmMain by getting {
+        jvmMain {
             dependencies {
                 implementation(libs.org.slf4j.slf4jSimple)
                 implementation(libs.ktor.client.okhttp)
                 implementation(libs.org.cryptomator.sivMode)
             }
         }
-        val jsMain by getting {
+        jsMain {
             dependencies {
                 implementation(libs.ktor.client.js)
                 implementation(npm("file-system", "^2.2.2"))
@@ -121,11 +108,16 @@ kotlin {
                 implementation(npm("@keplr-wallet/types", "^0.11.13"))
             }
         }
-        val jsTest by getting {
+        jsTest {
             dependencies {
                 implementation(libs.com.squareup.okio.nodefilesystem)
                 implementation(devNpm("@peculiar/webcrypto", "^1.4.0"))
                 implementation(devNpm("@happy-dom/global-registrator", "^7.5.2"))
+            }
+        }
+        wasmJsTest {
+            dependencies {
+                implementation(libs.com.squareup.okio.fakefilesystem)
             }
         }
 
@@ -159,12 +151,5 @@ multiplatformSwiftPackage {
         // https://github.com/luca992/multiplatform-swiftpackage/issues/18
 //        watchOS { v("4") }
         tvOS { v("9") }
-    }
-}
-
-plugins.withId("com.vanniktech.maven.publish") {
-    mavenPublishing {
-        publishToMavenCentral(SonatypeHost.S01)
-        signAllPublications()
     }
 }

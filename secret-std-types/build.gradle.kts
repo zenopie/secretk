@@ -1,6 +1,4 @@
-import com.vanniktech.maven.publish.SonatypeHost
-import org.jetbrains.kotlin.gradle.targets.js.dsl.ExperimentalWasmDsl
-
+import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
 
 plugins {
     alias(libs.plugins.org.jetbrains.kotlin.multiplatform)
@@ -18,11 +16,11 @@ kotlin {
         nodejs()
     }
     @OptIn(ExperimentalWasmDsl::class)
-    wasmJs{
+    wasmJs {
         browser()
         nodejs()
     }
-    iosArm64(); iosX64() ;iosSimulatorArm64()
+    iosArm64(); iosX64(); iosSimulatorArm64()
     tvosArm64(); tvosX64(); tvosSimulatorArm64()
     watchosArm32(); watchosArm64(); watchosSimulatorArm64()
     macosX64(); macosArm64()
@@ -38,12 +36,5 @@ kotlin {
                 implementation(libs.bignum.serialization.kotlinx)
             }
         }
-    }
-}
-
-plugins.withId("com.vanniktech.maven.publish") {
-    mavenPublishing {
-        publishToMavenCentral(SonatypeHost.S01)
-        signAllPublications()
     }
 }
