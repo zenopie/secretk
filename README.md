@@ -19,6 +19,7 @@ A Kotlin multiplatform Encryption and REST client for Secret Network utilizing g
 
 * JVM
 * js
+* wasmJs
 * iOS, tvOS, watchOS
 * macOS
 * linux (x64)
