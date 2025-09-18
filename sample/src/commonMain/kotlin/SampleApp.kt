@@ -12,10 +12,10 @@ import io.eqoty.secretk.client.SigningCosmWasmClient
 import io.eqoty.secretk.extensions.accesscontrol.PermitFactory
 import io.eqoty.secretk.types.MsgExecuteContract
 import io.eqoty.secretk.types.TxOptions
+import io.eqoty.secretk.utils.EnigmaUtils
 import io.eqoty.secretk.wallet.DirectSigningWallet
 import kotlinx.coroutines.launch
 import kotlinx.datetime.Clock
-import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.jsonObject
 import kotlinx.serialization.json.jsonPrimitive
@@ -411,31 +411,22 @@ fun SampleApp(
 }
 
 @Composable
-fun setupAndStartApp() {
-    val coroutineScope = rememberCoroutineScope()
-    var client: SigningCosmWasmClient? by remember { mutableStateOf(null) }
-    if (client == null) {
-        coroutineScope.launch {
-            client = clientWithDirectSigningWallet()
-        }
+fun SetupAndStartApp() {
+    val client: SigningCosmWasmClient = remember {
+        SigningCosmWasmClient(
+            Chain.Secret4.grpcGatewayEndpoint,
+            null,
+            EnigmaUtils(Chain.Secret4.grpcGatewayEndpoint, EnigmaUtils.GenerateNewSeed()),
+        )
     }
-    client?.let {
-        val mnemonic = "sand check forward humble between movie language siege where social crumble mouse"
-        val wallet = DirectSigningWallet(mnemonic)
-        val accAddress = wallet.accounts[0].address
-        client!!.wallet = wallet
-        SampleApp(it, accAddress)
-    }
+    val mnemonic = "sand check forward humble between movie language siege where social crumble mouse"
+    val wallet = DirectSigningWallet(mnemonic)
+    val accAddress = wallet.accounts[0].address
+    client.wallet = wallet
+    SampleApp(client, accAddress)
 }
 
 enum class Chain(val id: String, val grpcGatewayEndpoint: String, val rpcEndpoint: String) {
     Pulsar3("pulsar-3", "https://api.pulsar.scrttestnet.com", "https://rpc.pulsar.scrttestnet.com"),
     Secret4("secret-4", "https://secret-4.api.trivium.network:1317", "https://secret-4.api.trivium.network:26657")
-}
-
-suspend fun clientWithDirectSigningWallet(): SigningCosmWasmClient {
-    return SigningCosmWasmClient.init(
-        Chain.Secret4.grpcGatewayEndpoint,
-        null
-    )
 }

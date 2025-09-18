@@ -60,7 +60,7 @@ class ClientTests {
     fun testCreateViewingKeyAndUseToQuery() = runTest {
         val contractAddress = "secret1yk7cd95nanxfcac7kfkkdh2dcm2m0v2eu7umz8"
         val accAddress = wallet.getAccounts()[0].address
-        val client = SigningCosmWasmClient.init(
+        val client = SigningCosmWasmClient(
             grpcGatewayEndpoint,
             wallet
         )
@@ -117,7 +117,7 @@ class ClientTests {
     fun testQueryWithPermit() = runTest {
         val contractAddress = "secret1yk7cd95nanxfcac7kfkkdh2dcm2m0v2eu7umz8"
         val accAddress = wallet.getAccounts()[0].address
-        val client = SigningCosmWasmClient.init(
+        val client = SigningCosmWasmClient(
             grpcGatewayEndpoint,
             wallet
         )
@@ -178,7 +178,7 @@ class ClientTests {
     @Test
     fun testStoreCode() = runTest(timeout = 20.seconds) {
         val accAddress = wallet.getAccounts()[0].address
-        val client = SigningCosmWasmClient.init(
+        val client = SigningCosmWasmClient(
             grpcGatewayEndpoint,
             wallet
         )
@@ -195,7 +195,7 @@ class ClientTests {
     @Test
     fun testInstantiateContractWithCodeHash() = runTest {
         val accAddress = wallet.getAccounts()[0].address
-        val client = SigningCosmWasmClient.init(
+        val client = SigningCosmWasmClient(
             grpcGatewayEndpoint,
             wallet
         )
@@ -210,7 +210,7 @@ class ClientTests {
     @Test
     fun testInstantiateContractWithNullCodeHash() = runTest {
         val accAddress = wallet.getAccounts()[0].address
-        val client = SigningCosmWasmClient.init(
+        val client = SigningCosmWasmClient(
             grpcGatewayEndpoint,
             wallet
         )
@@ -220,7 +220,7 @@ class ClientTests {
     @Test
     fun testInstantiateContractWithEmptyStringCodeHash() = runTest {
         val accAddress = wallet.getAccounts()[0].address
-        val client = SigningCosmWasmClient.init(
+        val client = SigningCosmWasmClient(
             grpcGatewayEndpoint,
             wallet
         )
@@ -230,7 +230,7 @@ class ClientTests {
     @Test
     fun testInstantiateContractWithBlankStringCodeHash() = runTest {
         val accAddress = wallet.getAccounts()[0].address
-        val client = SigningCosmWasmClient.init(
+        val client = SigningCosmWasmClient(
             grpcGatewayEndpoint,
             wallet
         )
@@ -240,7 +240,7 @@ class ClientTests {
     @Test
     fun testMigrateContract() = runTest(timeout = 30.seconds) {
         val senderAddr = wallet.getAccounts()[0].address
-        val client = SigningCosmWasmClient.init(
+        val client = SigningCosmWasmClient(
             grpcGatewayEndpoint,
             wallet
         )
@@ -272,7 +272,7 @@ class ClientTests {
     @Test
     fun testClearContractAdmin() = runTest(timeout = 30.seconds) {
         val senderAddr = wallet.getAccounts()[0].address
-        val client = SigningCosmWasmClient.init(
+        val client = SigningCosmWasmClient(
             grpcGatewayEndpoint,
             wallet
         )
@@ -295,7 +295,7 @@ class ClientTests {
     @Test
     fun testUpdateContractAdmin() = runTest(timeout = 30.seconds) {
         val senderAddr = wallet.getAccounts()[0].address
-        val client = SigningCosmWasmClient.init(
+        val client = SigningCosmWasmClient(
             grpcGatewayEndpoint,
             wallet
         )
@@ -374,7 +374,7 @@ class ClientTests {
     @Test
     fun testSendCoin() = runTest {
         val accAddress = wallet.getAccounts()[0].address
-        val client = SigningCosmWasmClient.init(
+        val client = SigningCosmWasmClient(
             grpcGatewayEndpoint,
             wallet
         )
@@ -399,7 +399,7 @@ class ClientTests {
 
     @Test
     fun testGetLatestBlockDeserializesSuccessfully() = runTest {
-        val client = SigningCosmWasmClient.init(
+        val client = SigningCosmWasmClient(
             grpcGatewayEndpoint,
             wallet
         )

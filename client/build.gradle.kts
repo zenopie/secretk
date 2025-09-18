@@ -1,4 +1,7 @@
+@file:OptIn(ExperimentalWasmDsl::class)
+
 import com.vanniktech.maven.publish.SonatypeHost
+import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
 import org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTarget
 
 plugins {
@@ -15,13 +18,37 @@ kotlin {
     jvm()
     js(IR) {
         browser {
-            testTask(Action {
+            testTask {
                 useMocha {
                     timeout = "20s"
                 }
-            })
+            }
+        }
+        nodejs {
+            testTask {
+                useMocha {
+                    timeout = "20s"
+                }
+            }
         }
     }
+    wasmJs{
+        browser {
+            testTask {
+                useMocha {
+                    timeout = "20s"
+                }
+            }
+        }
+        nodejs {
+            testTask {
+                useMocha {
+                    timeout = "20s"
+                }
+            }
+        }
+    }
+
     iosArm64(); iosX64(); iosSimulatorArm64()
     tvosArm64(); tvosX64(); tvosSimulatorArm64()
     watchosArm32(); watchosArm64(); watchosSimulatorArm64()
@@ -56,7 +83,7 @@ kotlin {
                 implementation(libs.com.squareup.okio)
                 implementation(libs.bignum)
                 implementation(libs.bignum.serialization.kotlinx)
-                implementation(libs.com.ionspin.kotlin.multiplatformCryptoLibsodiumBindings)
+                implementation(libs.dev.whyoleg.cryptography.random)
                 implementation(libs.io.github.luca992.cash.z.ecc.android.kotlinBip39)
 //                implementation(libs.com.github.komputing.khash.ripemd160)
                 implementation(libs.io.eqoty.kryptools.aessiv)

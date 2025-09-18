@@ -10,7 +10,10 @@ import io.eqoty.secretk.types.*
 import io.eqoty.secretk.types.proto.*
 import io.eqoty.secretk.types.response.GasInfo
 import io.eqoty.secretk.types.response.TxResponseData
-import io.eqoty.secretk.utils.*
+import io.eqoty.secretk.utils.EncryptionUtils
+import io.eqoty.secretk.utils.EnigmaUtils
+import io.eqoty.secretk.utils.decodeToString
+import io.eqoty.secretk.utils.logger
 import io.eqoty.secretk.wallet.AccountData
 import io.eqoty.secretk.wallet.DirectSigningWallet
 import io.eqoty.secretk.wallet.Wallet
@@ -422,29 +425,6 @@ class SigningCosmWasmClient(
 
     fun gasToFee(gasLimit: Int, gasPrice: Double): Int {
         return ceil(gasLimit.toDouble() * gasPrice).toInt()
-    }
-
-    companion object {
-
-        /**
-         * Helper to initialize libsodium and then create the client.
-         */
-        suspend fun init(
-            apiUrl: String,
-            wallet: Wallet?,
-            enigmaUtils: EncryptionUtils? = null,
-            broadcastMode: BroadcastMode = BroadcastMode.Sync,
-            chainId: String? = null
-        ): SigningCosmWasmClient {
-            ensureLibsodiumInitialized()
-            return SigningCosmWasmClient(
-                apiUrl,
-                wallet,
-                enigmaUtils ?: EnigmaUtils(apiUrl, EnigmaUtils.GenerateNewSeed()),
-                broadcastMode,
-                chainId
-            )
-        }
     }
 
 }

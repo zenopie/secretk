@@ -6,7 +6,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.NoLiveLiterals
 import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.window.CanvasBasedWindow
+import androidx.compose.ui.window.ComposeViewport
 import io.eqoty.secretk.client.SigningCosmWasmClient
 import io.eqoty.utils.KeplrEnigmaUtils
 import io.eqoty.wallet.MetaMaskWalletWrapper
@@ -44,12 +44,12 @@ fun main() {
                 TODO()
             }
         }
-        val client = SigningCosmWasmClient.init(
-            chain.grpcGatewayEndpoint, wallet, enigmaUtils = enigmaUtils
+        val client = SigningCosmWasmClient(
+            chain.grpcGatewayEndpoint, wallet, encryptionUtils = enigmaUtils
         )
         console.log(client)
         onWasmReady {
-            CanvasBasedWindow("secretk demo") {
+            ComposeViewport {
                 Column(modifier = Modifier.fillMaxSize()) {
                     SampleApp(client, accAddress) {
                         Row {
