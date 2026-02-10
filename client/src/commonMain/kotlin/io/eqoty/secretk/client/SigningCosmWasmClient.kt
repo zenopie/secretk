@@ -332,8 +332,11 @@ class SigningCosmWasmClient(
         signers: List<Signer>, amount: List<Coin>, gasLimit: Int, signMode: SignMode
     ): ByteArray {
         val authInfo = AuthInfoProto(
-            signerInfos = makeSignerInfos(signers, signMode), fee = FeeProto(
-                amount = amount.map { it.toProto() }, gasLimit = gasLimit
+            signerInfos = makeSignerInfos(signers, signMode), 
+            fee = FeeProto(
+                amount = amount.map { it.toProto() }, 
+                gasLimit = gasLimit,
+                granter = granter
             )
         )
         return ProtoBuf.encodeToByteArray(authInfo)
